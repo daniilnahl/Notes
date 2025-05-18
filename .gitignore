@@ -1,0 +1,82 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# CMake and build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+debug/
+release/
+
+# Java class files
+*.class
+
+# Java JAR files
+*.jar
+*.war
+*.ear
+
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.log
+.env
+.venv/
+env/
+venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Markdown artifacts (if any export tools used)
+*.md.html
+*.md.pdf
+*.md.docx
+
+# General backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore coverage and testing
+.coverage
+.tox/
+.nox/
+htmlcov/
+pytest_cache/
