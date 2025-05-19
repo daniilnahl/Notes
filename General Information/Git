@@ -1,0 +1,9 @@
+
+| Command                | what does it do                                                                                                                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| git status             | tells you the status of repository                                                                                                                                                                  |
+| git add                | allows you to add stuff to a future commit                                                                                                                                                          |
+| git commit -m ""       | creates a commit message with the added changes                                                                                                                                                     |
+| git commit -m "" -m "" | Multi-message git commit                                                                                                                                                                            |
+| git push               | Pushes git commit to                                                                                                                                                                                |
+| git --rebase           | when someone pushed onto the same branch and you didnt copy what they pushed this will layer your changes on top of their changes. Basically, combine the two commits with yours being in priority. |

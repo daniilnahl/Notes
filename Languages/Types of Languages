@@ -1,0 +1,131 @@
+## Compiler vs Interpreter
+|Feature|Compiled Languages|Interpreted Languages|
+|---|---|---|
+|**Execution Speed**|Faster|Slower|
+|**Translation Process**|Ahead of Time (AOT)|Just In Time (JIT)|
+|**Error Detection**|Before Execution|During Execution|
+|**Dependency**|Standalone Executable|Requires Interpreter|
+|**Flexibility**|Low|High|
+A compiler translates the entire source code of a program into machine code before execution, while an interpreter translates and executes the code line-by-line as it is being run.
+## Others
+### **1. Low-Level Languages**
+- **Definition**: These are closer to machine code, making them efficient but harder to write and understand. They directly interact with the hardware.
+- **Examples**: Assembly Language, Machine Language.
+- **Key Features**:
+    - Fast execution.
+    - Minimal abstraction from hardware.
+
+**Example (Assembly Language)**:
+`MOV AX, 5    ; Load 5 into register AX 
+`ADD AX, 2    ; Add 2 to AX`
+This tells the computer directly what to do using hardware registers.
+
+---
+
+### **2. High-Level Languages**
+- **Definition**: These are closer to human language and easier to read, write, and maintain. They abstract away hardware details.
+- **Examples**: Python, Java, C++.
+- **Key Features**:
+    - Easier to debug and understand.
+    - Slower than low-level languages due to abstraction.
+
+**Example (Python)**:
+`x = 5 x += 2  # Add 2 to x`
+This does the same thing as the assembly code above but is more readable.
+
+---
+
+### **3. Statically Typed Languages**
+- **Definition**: Variable types are declared explicitly and checked at compile time, ensuring fewer runtime errors.
+- **Examples**: C, Java, Go.
+- **Key Features**:
+    - Variables have fixed types.
+    - Errors caught during compilation.
+
+**Example (Java)**:
+`int x = 5; x = "Hello";  // Error: Type mismatch!`
+
+---
+
+### **4. Dynamically Typed Languages**
+- **Definition**: Variable types are determined at runtime, allowing more flexibility but potentially more runtime errors.
+- **Examples**: Python, JavaScript, Ruby.
+- **Key Features**:
+    - No need to declare types.
+    - Can lead to runtime type errors.
+
+**Example (Python)**:
+`x = 5 x = "Hello"  # No error here`
+
+---
+
+### **5. Procedural Languages**
+- **Definition**: Focus on procedures or routines (functions) to perform tasks.
+- **Examples**: C, Pascal, Python.
+- **Key Features**:
+    - Follows a step-by-step approach.
+    - Code organized into procedures.
+
+**Example (C)**:
+`#include <stdio.h> void sayHello() {     
+`printf("Hello, World!"); } 
+`int main() {     sayHello();     return 0; }`
+
+---
+
+### **6. Object-Oriented Languages (OOP)**
+- **Definition**: Use objects (data + behavior) to organize code. Focuses on classes and inheritance.
+- **Examples**: Java, Python, C++.
+- **Key Features**:
+    - Encapsulation, inheritance, and polymorphism.
+
+**Example (Python)**:
+`class Dog:     def bark(self):         print("Woof!")  dog = Dog() dog.bark()`
+
+---
+
+### **7. Functional Languages**
+- **Definition**: Emphasize immutability and use functions as the primary building blocks.
+- **Examples**: Haskell, Lisp, Scala.
+- **Key Features**:
+    - Functions as first-class citizens.
+    - Avoids changing state.
+
+**Example (Haskell)**:
+`square x = x * x 
+`main = print (square 5)  -- Output: 25`
+
+---
+
+### **8. Scripting Languages**
+- **Definition**: Typically used for automating tasks or controlling other software.
+- **Examples**: JavaScript, Python, Bash.
+- **Key Features**:
+    - Often interpreted.
+    - Quick for small tasks.
+
+**Example (Bash)**:
+`#!/bin/bash 
+`echo "Hello, World!"`
+
+---
+
+### **9. Markup Languages**
+- **Definition**: Used for structuring and presenting data, not traditional programming.
+- **Examples**: HTML, XML.
+- **Key Features**:
+    - Tags for structuring content.
+
+**Example (HTML)**:
+`<h1>Hello, World!</h1>`
+
+---
+
+### **10. Domain-Specific Languages (DSLs)**
+- **Definition**: Designed for a specific task or domain.
+- **Examples**: SQL (databases), R (data science), MATLAB (engineering).
+- **Key Features**:
+    - Limited to specific use cases.
+
+**Example (SQL)**:
+`SELECT * FROM users WHERE age > 18;`

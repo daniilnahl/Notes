@@ -1,0 +1,15 @@
+### How to make one?
+1. Open project directory! Make sure its the one.
+2. Type the code below in. It will create a virtual environment in a local folder named .venv: `py -m venv .venv`
+3. Activate the virtual environment by: `.venv\Scripts\activate`
+	1. Optional: check the location of your python interpreter by `where python`
+4. When done using virtual environment close it by: `deactivate`
+
+### How to install a package?
+`py -m pip install [package_name]` If you don't put pip then it will install to the whole system.
+### How to install a list of packages?
+`py -m pip install -r requirements.txt`
+
+### How to export a list of packages?
+`py -m pip freeze` Shows in terminal
+`pip freeze > requirements.txt` Shows in a file
