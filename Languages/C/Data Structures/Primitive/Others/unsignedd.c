@@ -1,0 +1,1 @@
+all unsigned types store from 0 to some value. Never store negatives.
