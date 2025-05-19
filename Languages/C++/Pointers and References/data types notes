@@ -1,0 +1,61 @@
+1. What are the the primitive data types?
+    Type - Meaning - Minimum Size(Number of bits)
+    bool - boolean - NA
+    char - character - 8 bits
+    wchar_t - wide character - 16 bits
+    char16_t - Unicode character - 16 bits
+    char32_t - Unicode character - 32 bits
+    short - short integer - 16 bits
+    int - integer - 16 bits (min is max of short int)
+    long - long integer - 32 bits  (min is max of int)
+    long long - long integer - 64 bits (min is max of long int)
+    float - single-precision floating-point - 6 significant digits
+    double - double-precision floating-point - 10 significant digits
+    long double - extended-precision floating-point - 10 significant digits
+
+
+    Side notes:
+        extern before variable allows the variable to be used in other files. Basically like public in java.
+
+    NEVER MIx SIGNED AND UNSIGNED
+    1. A signed type represents negative or positive numbers (including zero); 
+    2. An unsigned type represents only values greater than or equal to zero.
+
+2. What are some Escape Sequences?
+    newline \n 
+    horizontal tab \t 
+    alert (bell) \a
+    vertical tab \v 
+    backspace \b 
+    double quote \"
+    backslash \\ 
+    question mark \? 
+    single quote \’
+    carriage return \r 
+    formfeed \f
+
+!!. Difference between Reference and Pointer
+    1. A pointer can be reseated (point to another address), while a reference is fixed to one object.
+    
+3. What are References? (Compound Type: a type that is defined in terms of another type). Example: int &r = x;
+    A reference defines an alternative name for an object. It refers to another type. Uses &(name) - (variable).
+    A reference is bound to the variable it is assigned to. Must be intialized at the time it is defined.
+    Reference can reference a pointer.
+
+5. What Are Type Aliases? 
+    A type alias is a name that is a synonym for another type. Type aliases let us simplify complicated type definitions, making those types easier to use. Type aliases also let us emphasize the purpose for which a type is used.
+    Example:
+        typedef double wages; // wages is a synonym for double after this code.
+
+6. What is cout, cerr?
+    Cout is standard output while cerr is standard error output.
+
+7. Headers, files and classes.
+    If creating a class put the class name into the file name and create the file as a header file. Example: string.h
+    #define, #ifnded and #endif all ARE MUST in header files to prevent re importing of the class.
+
+    Preprocessors
+        Program that runs before the compiler and changes the source text of our programs. Our programs already rely on one preprocessor facility, #include. When the preprocessor sees a #include, 
+        it replaces the #include with the contents of the specified header.
+
+
