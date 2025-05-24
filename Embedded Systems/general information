@@ -3,16 +3,12 @@
 - It has ==limited== resources. 
 An embedded system is a specialized computing system that combines a microprocessor (or microcontroller) with a set of peripherals (such as sensors, actuators, and communication interfaces). These peripherals enable the system to take input (e.g., from sensors or user interfaces) and produce output (e.g., to displays, motors, or other devices).
 
-### What are some Peripherals?
-#### GPIO: General Purpose Input/Output
-Pins on a microcontroller that can be configured as input or output to interact with external devices like sensors, LEDs, or switches.
-#### Interrupts
-Signals that temporarily halt the current process to quickly handle high-priority tasks, such as responding to a button press.
-#### Timer
-A hardware module used to measure time intervals, trigger events at specific times, or count events like pulses.
-#### Analog to Digital Converter
-A peripheral that converts analog signals (e.g., voltage) into digital values that the microcontroller can process.
-#### Serial Interfaces
-Communication protocols (e.g., UART, SPI, I2C) that allow data exchange between a microcontroller and other devices using sequential data transfer.
-
-
+### Vocab
+- **STM 32** - a family of 32-bit microcontrollers (MCUs) made by STMicroelectronics based on the ARM Cortex-M processor core.
+- **Integrated Circuit (IC)** - a small chip that contains many electronic components, such as transistors, resistors, and capacitors, that are all interconnected. (Broad term).
+- **Microcontroller** -  a type of IC designed to perform specific functions in an embedded system. It has a CPU, memory and I/O peripherals.
+- **Interrupts** - signals that temporarily halt the current process to quickly handle high-priority tasks, such as responding to a button press.
+- **GPIO** - Pins on a microcontroller that can be configured as input or output to interact with external devices like sensors, LEDs, or switches.
+- **Timer** - A hardware module used to measure time intervals, trigger events at specific times, or count events like pulses.
+- **ADC(Analog to Digital Converter)** - A peripheral that converts analog signals (e.g., voltage) into digital values that the microcontroller can process.
+- **Serial Interfaces** - Communication protocols (e.g., UART, SPI, I2C) that allow data exchange between a microcontroller and other devices using sequential data transfer.
