@@ -42,3 +42,10 @@ int main() {
 
     return 0;
 }
+
+
+//NOTE ON KEYS THAT DONT EXIST:
+//When you use the [] operator to access a key in a std::map (like s_map[s[i]] or 
+//t_map[t[i]]), if that key doesn't already exist in the map, it's automatically inserted into the map, 
+//and its corresponding value is default-initialized(0), which means s_map[s[i]] += 1 works even if s[i] is not already in the map.
+
