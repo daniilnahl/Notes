@@ -12,7 +12,7 @@ bool is_y(char c) {
 int main(){
     string mom = "best mom in world";
     string mom10 (10, 'A'); //works only for char ('')
-    cin >> mom >> endl;
+    cin >> mom;
 
     return 0;
     string word;
@@ -63,7 +63,7 @@ int main(){
 
 
     //iterating over each character in a string
-    string x = "GAY";
+    string x = "DOG";
     for(const char& c : x){
         cout << c << endl; 
     }
