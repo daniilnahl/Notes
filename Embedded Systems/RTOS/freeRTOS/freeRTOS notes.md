@@ -27,3 +27,25 @@ void setup() {
 }
 ...
 ```
+
+
+
+
+
+
+# Misc Stuff for freeRTOS on ESP 32
+
+- Script to see how many bytes are free from stack size allocated. Put this code within a task.
+```
+  UBaseType_t free_bytes = uxTaskGetStackHighWaterMark(NULL);
+  Serial.printf("High-water mark for BMP280: %u bytes\n\n\n", free_bytes);
+```
+
+- Delay function expressed in ticks but converted to seconds based on my mcu's clock speed. 1000 ticks = 1000ms = 1 sec.
+```
+  vTaskDelay(1000 / portTICK_PERIOD_MS); 
+```
+
+
+# Errors explanation
+- **Stack Overflow: Stack canary watchpoint triggered "*task name*"**. This error was happening because I was not allocating enough stack size for tasks. When scheduler was switching tasks it checks the canary (guard used to detect stack overflow at the end of each task). It checks each time before running a task. In this case, when a task didn't have enough memory it used canary's memory and overwrote it which in scheduler's 'eyes' made the canary corrupted. If its corrupted then it means a stack overflow exception. Stack overflow calls panic handler, which in return calls esp32's watchdog(a hardware timer used to detect and recover from software or hardware malfunctions) reset, reseting the mcu.
