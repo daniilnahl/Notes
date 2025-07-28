@@ -9,3 +9,17 @@
 | git --rebase           | when someone pushed onto the same branch and you didnt copy what they pushed this will layer your changes on top of their changes. Basically, combine the two commits with yours being in priority. |
 | git init               | Intializes a repository.                                                                                                                                                                            |
 | git remote add origin <url> | Adds a remote locations for a repository ar provided url.                                                                                                                                       |
+| touch "text.txt" | create a file using git bash                                                                                                                                 |
+
+
+
+# How to write good git commit messages?
+1. **Commit msg must have a TITLE and a BODY! There should be a blank line between title and body.** Do this using 
+```
+git commit -m "Fix bug" -m "Fix bug through delete all code"
+```
+2. ****
+3. ****
+4. ****
+5. ****
+6. ****
