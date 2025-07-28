@@ -10,6 +10,8 @@ In both examples the **compiler** is doing all the heavy lifting. Compiler uses 
 - Non-type template parameters (where the template parameter represents a constexpr value).
 - Template template parameters (where the template parameter represents a template).
 
+## Generic
+Templates are often called generic types(generic programming). **Generic programming** is useful when focused on designing data structures and algorithms without having too worry about what sort of type is being passed in.
 
 # How to use a template?
 1. First intialize a template/class with a <typename 'any letter'>;
@@ -24,6 +26,12 @@ You can define a non-template of the template function with defined types. Its e
 **Warning**
 - The compiler will instantiate and compile function templates that do not make sense semantically as long as they are syntactically valid. It is your responsibility to make sure you are calling such function templates with arguments that make sense.
 
+# Why use a template in the first place?
+1. Reduces code maintenance and errors by minimizng the amount of code needed to be written.
+
+# Why not use a template?
+1. The error messages that are produced by template functions are giant.
+2. Compiler is still creating functions for all the argument types that are being used which could lead to a lot of code below the hood and could lead to slow compile time.
 
 # Cool Facts
 - Templates can work with types that didn’t even exist when the template was written. This helps make template code both flexible and future proof!
