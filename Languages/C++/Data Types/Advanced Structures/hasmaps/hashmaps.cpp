@@ -40,6 +40,20 @@ int main() {
    // Check size of hash map
     std::cout << "Hash map size: " << ages.size() << std::endl;  // Output: Hash map size: 2
 
+
+
+    //CHECK IF KEY EXISTS IN MAP
+    std::map<int, std::string> myMap;
+    myMap[1] = "Apple";
+    myMap[2] = "Banana";
+    myMap[3] = "Cherry";
+
+    // Check if key 2 exists
+    if (myMap.count(2)) {
+        std::cout << "Key 2 is present in the map." << std::endl;
+    } else {
+        std::cout << "Key 2 is not present in the map." << std::endl;
+    }
     return 0;
 }
 
