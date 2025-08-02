@@ -7,4 +7,5 @@
 - **CI/CD** - Continuous Integration and Continuous Delivery. A method of software engineering that allows fast delivery of new versions of code.
     - Continous Integration:
     - Continuous Delivery:
--
+- **function overload** - having multiple functions with the same name within the same scope, but with different signatures (different numbers or types of parameters). This allows a single function name to be used for different, but related, operations based on the input arguments. 
+- 

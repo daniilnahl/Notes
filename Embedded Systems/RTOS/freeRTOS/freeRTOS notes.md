@@ -1,5 +1,5 @@
-# free RTOS on ESP32
-## **Creating a task**, given that the task has been defined before setup().
+# What is freeRTOS on ESP32?
+##  How to go around **Creating a task**, given that the task has been defined before setup()?
 ```
 ...
 void setup() {
@@ -26,13 +26,13 @@ void setup() {
 }
 ...
 ```
-## Watchdog
+## What is a Watchdog?
 **ESP IDF** offers three types of watchdogs:
 1. Hardware Watchdog Timers
 2. Interrupt Watchdog Timer (IWDT):*ensures that ISRs (Interrupt Service Routines) are not blocked for a prolonged period of time.*
 3. Task Watchdog Timer (TWDT):  *detects instances of tasks running without yielding for a prolonged period.* - what i need in this project.
 
-### TWDT
+### What is TWDT?
 *"The Task Watchdog Timer (TWDT) is used to monitor particular tasks, ensuring that they are able to execute within a given timeout period." - ESP-idf Programming Guide*
 
 Basically, just checks if a task is running and is not yielding to others task, which means some sort of infinite loop. 
@@ -59,12 +59,24 @@ Basically, just checks if a task is running and is not yielding to others task, 
 **CONFIG**
 *CONFIG_ESP_TASK_WDT_TIMEOUT_S* - sets the default timeout period. Set to as long as you expect any single task needs to monopolize the CPU.
 
-# How does freeRTOS fit within ESP32 ecosystem?
+## What is Inter-task Communication?
+Its communication between tasks. There are couple ways to make it happen.
+
+### What is Queue?
+Queue a data structure based on FIFO concept (first in first out). Queue stores task 1's output and task 2 in a loop digests those outputs. Basically, it receives when there's something in the queue and waits when there is nothing there.
+
+- **HOW TO CREATE a QUEUE?** - *xQueueCreate*. x here becasue return is some special type x.
+- **HOW TO DELETE a QUEUE?** - *vQueueDelete*. v here because return is void.
+- **HOW TO SEND TO BACK OF QUEUE?** - *xQueueSend*.
+- **HOW TO SEND TO FRONT OF QUEUE?** - *xQueueSendToFront*.
+- **HOW TO RECEIVE FROM QUEUE?** - *xQueueReceive*.
+
+## How does freeRTOS fit within ESP32 ecosystem?
 From my search, I found that ESP 32 System API is built on top of freeRTOS. Basically, ESP-IDF (Espressif IoT Development Framework) uses a modified (SMP‑capable: a computing architecture in which two or more identical processor cores share the same main memory and are managed by a single operating‑system kernel) FreeRTOS kernel for task scheduling, timers, queues, and other OS functionality. The System API you call in your application (e.g. task creation, inter‑task communication, timing) are simply thin wrappers around those FreeRTOS primitives, with some ESP‑IDF–specific enhancements (“FreeRTOS Additions”) to support multi‑core operation and IDF‑style hooks.
 
 
 
-# Misc Stuff for freeRTOS on ESP 32
+## Misc Stuff for freeRTOS on ESP 32
 
 - Script to see how many bytes are free from stack size allocated. Put this code within a task.
 ```

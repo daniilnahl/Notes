@@ -94,5 +94,14 @@ int main(){
 
     //MISC
     std::string::npos; //means not found or no position. Used in functions like find(), rfind(), find_first_of() when condition is asking for not found.
+    
+    
+    //SWAP - swapping characters based on index
+    std::string myString = "Hello";
+
+    // Swap characters at index 0 ('H') and index 4 ('o')
+    std::swap(myString[0], myString[4]);
+
+    std::cout << "String after swap: " << myString << std::endl; // Output: oellH
     return 0;
 }
