@@ -37,7 +37,5 @@ public:
  *  Time complexity in total is O (n * k log k). k log k comes from sorting the strings and n comes from the original loop where I iterate all the elements. Second loop is O(n) since its a loop of all elements and the insert/access within it is O(1). So, n * k log k + n = O (n * k log k).
  * WHAT SPACE COMPLEXITY?
  * Space complexity is O (m * n). M for hashmap and n for double vector.
- * WHAT IS THE SUMMARY OF THIS?
- * 
  *  ***/
 
