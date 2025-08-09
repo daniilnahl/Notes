@@ -1,2 +1,0 @@
-- Sora - OpenAI's generative image AI creator. Good for unique image and video creation (BAD for continous imporvement of a single image).
-- ChatGPT - Choose create image and type in prompt. Doesn't have as many modification options. (GOOD FOR continous improvements of a single image).
