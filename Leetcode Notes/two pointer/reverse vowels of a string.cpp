@@ -33,7 +33,6 @@ public:
         return s;
     }
 };
-
 /****** 
  * WHAT WAS CORE IDEA?
 The core idea was two use two pointers one starting at the beginning and one at end then intiate a while loop which holds smaller loops for each pointer to search for a vowel.
