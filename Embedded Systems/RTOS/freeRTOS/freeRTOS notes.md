@@ -35,7 +35,7 @@ void setup() {
 ### What is TWDT?
 *"The Task Watchdog Timer (TWDT) is used to monitor particular tasks, ensuring that they are able to execute within a given timeout period." - ESP-idf Programming Guide*
 
-Basically, just checks if a task is running and is not yielding to others task, which means some sort of infinite loop. 
+Basically, just checks if a task is properly running by yielding in the expected time period. If doesn't yield within the given time (called deadlock) watchdog resets the mcu.
 
 **FUNCTIONS**
 - *esp_task_wdt_init(const esp_task_wdt_config_t *config)* to initialize the TWDT and subscribe the idle tasks.
