@@ -200,6 +200,19 @@ void loop() {
         Serial.print("\tTypicalParticleSize:");
         if (isnan(typicalParticleSize)) Serial.println("n/a");
         else Serial.println(typicalParticleSize);
+
+
+        delay(1000);
+        Serial.println("\n\n\n\n\n");
+        uint32_t status_before = 0;
+        uint16_t err = sen5x.readAndClearDeviceStatus(status_before);
+        if (err == 0) {
+          char buf[11];
+          snprintf(buf, sizeof(buf), "0x%08lX", (unsigned long)status_before);
+          Serial.println(buf);
+        }
+        Serial.println("\n\n\n\n\n");
+        delay(1000);
     }
 
     delay(1000);
