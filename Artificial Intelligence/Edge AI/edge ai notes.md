@@ -18,3 +18,7 @@ Basically, running services/software directly on the end devices or local networ
 - **Limited remote access** - Services running locally on edge or end devices might not be easily accessed via remote clients. To provide such remote access, you often need to run additional services (such as a web server) and/or configure a VPN on your local network.
 - **Security** - Many IoT devices come from the manufacturer with default login credentials and open ports, making them prime targets for attackers (such as with the infamous Mirai botnet attack in 2016). You and your network administrators are responsible for implementing and enforcing up-to-date security plans for all edge devices.
 - **Scaling** - Adding more computing power and resources is often easy in cloud computing; you just pay the cloud service provider more money. Scaling your resources for edge computing often requires purchasing and installing additional hardware along with maintaining the infrastructure.
+
+# How to prepare for Edge AI project?
+- [Step 1](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals/how-to-choose-an-edge-ai-device)
+- [Step 2](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals/edge-ai-lifecycle) 
