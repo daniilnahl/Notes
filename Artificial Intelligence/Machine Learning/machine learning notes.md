@@ -4,6 +4,7 @@ Machine learning is a subfield of artificial intelligence that revolves around d
 **There are categories of ML**
 1. **Supervised learning**: 
     - Model is trained on labeled data and based on that makes inferences.
+    - Types: classification and regression.
     - Made up of these algortithms:
         - *Regression algorithms*—predict output values by identifying linear relationships between real or continuous values.
         - *Classification algorithms*—predict categorical output variables (e.g., “junk” or “not junk”) by labeling pieces of input data. 
@@ -18,6 +19,13 @@ Machine learning is a subfield of artificial intelligence that revolves around d
 5. **Semi-supervised learning**:
     - Model is given a small labeled data set and a big unlabeled data set then the model uses a mix of unsupervised learning to identify data clusters, afterwards uses supervised learning to label those data clusters.
 
+## What are phases of ML model?
+
+
+## What are limitations of Machine Learning?
+1. **Computing power requirements** add fuel into the fire that is climate change.
+2. **Data** required for machine learning raises privacy concerns over sensitive data.
+3. **Type of data** used for machine learning can perpetuate stereotypes/misinformed points. For example, a group of people from region A have less education due to a war thus they score less on SAT, machine learning doesn't know that context and will just show that based on data people in region A score less which could perpetuate a sterotype that people from that region are less intelligent.
 
 
 
