@@ -27,6 +27,14 @@ public:
         return count;
     }
 };
+/***
+ * WHAT WAS WRONG WITH MY THOUGHT PROCESS IN FIRST ATTEMT?
+ * I correctly identified an issue my approach was having, but then I didn't figure out 
+ * the most optimal way to solve it. I was thinking about using a set and just access the first value (set is auto sorted)
+ * but I would lose the index of that value and not be able to erase it. 
+ * Thus the issue here was me trying to resolve the issue within the constraints I set for myself with my 
+ * approach. Next time when issue arises think about how I can fix it 'outside' and 'inside'.
+ */
 
 //ATEMPT 2
 class Solution {
