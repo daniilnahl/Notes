@@ -8,4 +8,6 @@
     - Continous Integration:
     - Continuous Delivery:
 - **function overload** - having multiple functions with the same name within the same scope, but with different signatures (different numbers or types of parameters). This allows a single function name to be used for different, but related, operations based on the input arguments. 
-- 
+- **determinstic**: means that the system produces the same result every time given the same input.
+- **probabilistic**:
+- **NPU**:
