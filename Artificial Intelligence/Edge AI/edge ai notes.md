@@ -19,6 +19,18 @@ Basically, running services/software directly on the end devices or local networ
 - **Security** - Many IoT devices come from the manufacturer with default login credentials and open ports, making them prime targets for attackers (such as with the infamous Mirai botnet attack in 2016). You and your network administrators are responsible for implementing and enforcing up-to-date security plans for all edge devices.
 - **Scaling** - Adding more computing power and resources is often easy in cloud computing; you just pay the cloud service provider more money. Scaling your resources for edge computing often requires purchasing and installing additional hardware along with maintaining the infrastructure.
 
+# How to use Edge AI?
+## Edge Impulse
+### What is it? 
+Edge Impulse is a platform that allows to deploy and train TinyML models.
+
+### How to use it?
+1. Create a project.
+2. Connect a device. Check the [supported devices](https://docs.edgeimpulse.com/hardware) and connect using their pre-built way or by connecting a device through serial using their [data forwarder](https://docs.edgeimpulse.com/tools/clis/edge-impulse-cli/data-forwarder)
+3. Collect data.
+4. Create impulse.
+
+
 # How to prepare for Edge AI project?
 - [Step 1](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals/how-to-choose-an-edge-ai-device)
 - [Step 2](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals/edge-ai-lifecycle) 

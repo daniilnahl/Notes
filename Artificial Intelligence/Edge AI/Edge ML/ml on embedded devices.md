@@ -8,6 +8,11 @@ Machine learning models deployed on embedded systems (microcontrollers).
         - Enables Cortex-M processors for tinyML applications.
         - Supports TensorFlow lite for MCUs.
         - Basically is used to optimize TFLu (very good at it too).
+    - AIMET:
+    - TensorFlow Lite:
+    - CoreML:
+    - PyTorch Mobile:
+
 # When to Tiny ML used?
 - **Vibration and motion**: predicitive maintenance, pollution, vibration.
 - **Voice and sound**: keyword spotting, speech recognition, NLP, sound recognition.

@@ -20,7 +20,13 @@ Machine learning is a subfield of artificial intelligence that revolves around d
     - Model is given a small labeled data set and a big unlabeled data set then the model uses a mix of unsupervised learning to identify data clusters, afterwards uses supervised learning to label those data clusters.
 
 ## What are phases of ML model?
-
+ 1. ***Problem Definition & Data Gathering***:
+ 2. ***Data Preprocessing & Preparation***:
+ 3. ***Model Selection***:
+ 4. ***Model Training***:
+ 5. ***Model Evaluation***:
+ 6. ***Hyperparameter Tuning***:
+ 7. ***Deployment & Monitoring***:
 
 ## What are limitations of Machine Learning?
 1. **Computing power requirements** add fuel into the fire that is climate change.
@@ -29,7 +35,7 @@ Machine learning is a subfield of artificial intelligence that revolves around d
 
 
 
-
+# How to use machine learning?
 # Vocab
 **Inference** - prediction aka when a pre-trained model makes a prediction on a new set of data.
 **Prediction serving** - process of client asks for inference -> supply new data -> server responds with result. 
