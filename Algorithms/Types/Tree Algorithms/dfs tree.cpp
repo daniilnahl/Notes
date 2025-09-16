@@ -1,1 +1,2 @@
-https://www.geeksforgeeks.org/dsa/dfs-traversal-of-a-tree-using-recursion/
+//check in leetcode/binary tree/DFS
+//I have all three types in there

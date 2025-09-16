@@ -16,11 +16,14 @@ A binary tree consists of nodes where:
 
 ## 4. How to TRAVERSE?
 
-THREE METHODS:
+THREE METHODS (Only applies to DFS):
 
 * **preorder** - ROOT -> LEFT -> RIGHT
 * **inorder** - LEFT -> ROOT -> RIGHT
 * **postorder** - LEFT -> RIGHT -> ROOT
+
+BFS:
+- Each level then next.
 
 ## 5. When to use?
 
