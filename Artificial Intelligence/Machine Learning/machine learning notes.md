@@ -20,13 +20,13 @@ Machine learning is a subfield of artificial intelligence that revolves around d
     - Model is given a small labeled data set and a big unlabeled data set then the model uses a mix of unsupervised learning to identify data clusters, afterwards uses supervised learning to label those data clusters.
 
 ## What are phases of ML model?
- 1. ***Problem Definition & Data Gathering***:
- 2. ***Data Preprocessing & Preparation***:
- 3. ***Model Selection***:
- 4. ***Model Training***:
- 5. ***Model Evaluation***:
- 6. ***Hyperparameter Tuning***:
- 7. ***Deployment & Monitoring***:
+ 1. ***Problem Definition & Data Gathering***: Defining the objective and *Key Performance Indicators* which will allow to determine how effective the model is at its objective. The collecting data.
+ 2. ***Data Preprocessing & Preparation***: Cleaning up data, correct errors, format it and transform into usable state.
+ 3. ***Model Selection***: Choosing a proper model based on the objective.
+ 4. ***Model Training***: Training the model on collected data. Data from step 2 is split into 2: training(80%) and testing(20%).
+ 5. ***Model Evaluation***: After model is trained its evaluated against the testing data set.
+ 6. ***Hyperparameter Tuning***: Based on results from previous step go back and fine tune the model. **Iterative cycle of  tuning, training, and evaluating**.
+ 7. ***Deployment & Monitoring***: Deploy the model into real world environment and monitor how well it performs.
 
 ## What are limitations of Machine Learning?
 1. **Computing power requirements** add fuel into the fire that is climate change.

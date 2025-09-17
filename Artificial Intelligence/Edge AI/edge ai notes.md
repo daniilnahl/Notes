@@ -22,12 +22,16 @@ Basically, running services/software directly on the end devices or local networ
 # How to use Edge AI?
 ## Edge Impulse
 ### What is it? 
-Edge Impulse is a platform that allows to deploy and train TinyML models.
+Edge Impulse is a platform that allows to deploy and train ai models on variety of hardware.
 
 ### How to use it?
 1. Create a project.
 2. Connect a device. Check the [supported devices](https://docs.edgeimpulse.com/hardware) and connect using their pre-built way or by connecting a device through serial using their [data forwarder](https://docs.edgeimpulse.com/tools/clis/edge-impulse-cli/data-forwarder)
 3. Collect data.
+    - Split data into three categories: ***Training, Validation and Testing.***
+        - Training(60%): data on which the model will be based on.
+        - Validation(20%): data on which hyperparamters of the model will be fine tuned.
+        - Testing(20%): data on which the final model will be evaluated on.
 4. Create impulse.
 
 
