@@ -32,8 +32,13 @@ Edge Impulse is a platform that allows to deploy and train ai models on variety 
         - Training(60%): data on which the model will be based on.
         - Validation(20%): data on which hyperparamters of the model will be fine tuned.
         - Testing(20%): data on which the final model will be evaluated on.
-4. Create impulse.
+4. Create imuplse -> select spectral analysis and "learning block" (type of ML).
 
+5. Go to spectral features -> generate features.
+    - Extract feature sets from the data (done auto). 
+        - *Edge impulse does this automatically, but I can still manually tweak it if I want to*.
+        - Extract the KEY features needed for the model to predict whatever the objective is!
+        - Ensure that the feature sets encompass not just a single frame, but multiple. Basically, 1 sec feature set is going to create a poor model in contast with a 3 sec feature set that shows how the parameters changed over time, creating a better picture on how to predict something.
 
 # How to prepare for Edge AI project?
 - [Step 1](https://docs.edgeimpulse.com/knowledge/courses/edge-ai-fundamentals/how-to-choose-an-edge-ai-device)

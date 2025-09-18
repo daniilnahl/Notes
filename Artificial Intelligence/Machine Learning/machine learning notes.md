@@ -19,7 +19,7 @@ Machine learning is a subfield of artificial intelligence that revolves around d
 5. **Semi-supervised learning**:
     - Model is given a small labeled data set and a big unlabeled data set then the model uses a mix of unsupervised learning to identify data clusters, afterwards uses supervised learning to label those data clusters.
 
-## What are phases of ML model?
+## What are phases (pipeline) of ML model?
  1. ***Problem Definition & Data Gathering***: Defining the objective and *Key Performance Indicators* which will allow to determine how effective the model is at its objective. The collecting data.
  2. ***Data Preprocessing & Preparation***: Cleaning up data, correct errors, format it and transform into usable state.
  3. ***Model Selection***: Choosing a proper model based on the objective.
@@ -27,6 +27,8 @@ Machine learning is a subfield of artificial intelligence that revolves around d
  5. ***Model Evaluation***: After model is trained its evaluated against the testing data set.
  6. ***Hyperparameter Tuning***: Based on results from previous step go back and fine tune the model. **Iterative cycle of  tuning, training, and evaluating**.
  7. ***Deployment & Monitoring***: Deploy the model into real world environment and monitor how well it performs.
+
+Collect data -> data -> preprocessing -> feature extraction -> features -> training model
 
 ## What are limitations of Machine Learning?
 1. **Computing power requirements** add fuel into the fire that is climate change.
@@ -37,5 +39,8 @@ Machine learning is a subfield of artificial intelligence that revolves around d
 
 # How to use machine learning?
 # Vocab
-**Inference** - prediction aka when a pre-trained model makes a prediction on a new set of data.
+**Inference** - prediction aka when a pre-trained model makes a prediction on an unseen data in the wild.
 **Prediction serving** - process of client asks for inference -> supply new data -> server responds with result. 
+**Feature** - an individual measurable property or characteristic of a phenomenon being observed.
+**parameters** - *ATUOMATICALLY* - any of the variables and coefficients inside the actual mathematical model itself. These are the numbers used to make predictions when fed features as inputs and they are almost always determined automatically during the training process.
+**hyper parameters** - *MANUALLY* - any configuration that is outside of the model and whose value cannot be estimated or tuned by the data. Vonfiguration values that we must set manually such as the size and shape of the model, the learning rate and number of training steps to take, which features to use and the methods and calculations to pre-process the data.
