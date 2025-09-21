@@ -35,12 +35,14 @@ Collect data -> data -> preprocessing -> feature extraction -> features -> train
 2. **Data** required for machine learning raises privacy concerns over sensitive data.
 3. **Type of data** used for machine learning can perpetuate stereotypes/misinformed points. For example, a group of people from region A have less education due to a war thus they score less on SAT, machine learning doesn't know that context and will just show that based on data people in region A score less which could perpetuate a sterotype that people from that region are less intelligent.
 
-
-
 # How to use machine learning?
+
 # Vocab
 **Inference** - prediction aka when a pre-trained model makes a prediction on an unseen data in the wild.
 **Prediction serving** - process of client asks for inference -> supply new data -> server responds with result. 
 **Feature** - an individual measurable property or characteristic of a phenomenon being observed.
 **parameters** - *ATUOMATICALLY* - any of the variables and coefficients inside the actual mathematical model itself. These are the numbers used to make predictions when fed features as inputs and they are almost always determined automatically during the training process.
 **hyper parameters** - *MANUALLY* - any configuration that is outside of the model and whose value cannot be estimated or tuned by the data. Vonfiguration values that we must set manually such as the size and shape of the model, the learning rate and number of training steps to take, which features to use and the methods and calculations to pre-process the data.
+**Overfitting** - Model predicts training data well, but fails to generalize validation data.
+**Underfitting** - Model performs poorly on training and validation data.
+**Good fit** - Model generalizes well on training and validation data.
