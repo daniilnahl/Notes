@@ -20,7 +20,13 @@ Basically, running services/software directly on the end devices or local networ
 - **Scaling** - Adding more computing power and resources is often easy in cloud computing; you just pay the cloud service provider more money. Scaling your resources for edge computing often requires purchasing and installing additional hardware along with maintaining the infrastructure.
 
 # How to use Edge AI?
-## Edge Impulse
+
+## What are some implementation strategies?
+1. When defining a threshold for a ML inference create two histogram for true negatives and true positives. Put those histrograms over a plot of y-axis # of time a result occured and x-axis confidence score.
+    1. This way you can see where they overlap and come up with a threshold based on your needs.
+    2. If you are doing security and high critical stuff it might be well to set threshold lower and experience more true negatives, but also catch those rare true positives in that zone.
+## What are some platforms to create Edge AI?
+### Edge Impulse
 ### What is it? 
 Edge Impulse is a platform that allows to deploy and train ai models on variety of hardware.
 
