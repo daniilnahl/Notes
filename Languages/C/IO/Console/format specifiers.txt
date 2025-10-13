@@ -13,3 +13,4 @@ signed char	            %c
 unsigned char	        %c
 long double	            %Lf
 string                  %s
+float/double            %g   prints the variable with fewest amount of characters.
