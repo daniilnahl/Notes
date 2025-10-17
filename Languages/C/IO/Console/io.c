@@ -49,6 +49,9 @@ int main(){
     // Formats an integer number into a string buffer, 
     // padding with a LEADING ZERO if it's less than 10, doesnt do it if its more than 10.
     // ensuring a minimum width of two characters.
+
+    //HOW TO CLEAN INPUT TERMINAL/CLEAR IO?
+    while (getchar() != '\n');
     return 0;
 
     
