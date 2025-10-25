@@ -11,3 +11,5 @@
 - **determinstic**: means that the system produces the same result every time given the same input.
 - **probabilistic**:
 - **NPU**:
+- **Scalar data type**: capable of holding a single value.
+- **Aggregate data type**: capble of holding collection of values.
