@@ -33,7 +33,21 @@ Use:
 # Char
 - cin.ignore(n,c) - skips over next char in the input buffer. n - num of chars to skip and c - stop when c is encountered.
 - .assign(n, c) - assigns n amount of c char into a string.
+- isaplha(): returns true if char is a letter.
+- isalnum(): returns true if char is a letter or digit.
+- isdigit(): returns true if char is a digit.
+- islower(): returns true if lowercase letter.
+- issupper(): returns true if char is uppercase letter.
+- isprint(): returns true if arg. is a printable character.
+- inpunct(): returns true if arg. is a punctuation char.
+- isspace(): return true if arg. is a whitespace.
 
+# Enumerated Data Type
+Data type created by the programmer. Contains a set of named integer constants. Such data types values are associated with integers, starting at 0. Ex:
+```
+enum Fruit{apple, grape};
+apple is 0, grape is 1.
+```
 # Math Library
 Must use:
 ```
