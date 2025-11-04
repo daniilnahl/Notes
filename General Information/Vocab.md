@@ -13,3 +13,7 @@
 - **NPU**:
 - **Scalar data type**: capable of holding a single value.
 - **Aggregate data type**: capble of holding collection of values.
+- **Literal**: a piece of data that is written directly in the source code of a program. Ex: 'A', "Anamial"; different from declaring a variable with that value.
+- **coercion**: automatic conversion of an operand to another data type.
+    - **promotion**: conversion to a higher data type.
+    - **demotion**: conversion to a lower data type.

@@ -22,6 +22,11 @@
 
 ---
 
+### Hierarchy of Data Types
+bottom to top:
+int -> unsigned int -> long int -> unsigned long int -> long long int -> unsigned long long int -> float -> double -> long double. 
+
+
 ### Important  
 **Never mix signed and unsigned types.**  
 1. A signed type represents negative or positive numbers (including zero).  
