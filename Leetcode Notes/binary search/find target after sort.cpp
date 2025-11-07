@@ -38,17 +38,10 @@ public:
 
 /****** 
  * WHAT WAS CORE IDEA?
- 
+ The core idea was to first sort the nums, then using binary search find where target element/s are and from there go left and right collecting all the indices of tha target number.
  * WHAT PATTERN/DSA DID THIS USE?
- * The DSA/PATTERN I used 
- * 
- * Key concepts that I learned were:
- *  
- * WHAT TIME COMPLEXITY?
- * 
- * WHAT SPACE COMPLEXITY?
- * 
- * WHAT IS THE SUMMARY OF THIS?
- * 
+ * The DSA/PATTERN I used was modified binary search.
+ * WHAT TIME COMPLEXITY? it was O (n log n) for the n elements sorted using sort(). 
+ * WHAT SPACE COMPLEXITY? It was O (n) for the n elements added to res vector.
  *  ***/
 

@@ -17,3 +17,6 @@
 - **coercion**: automatic conversion of an operand to another data type.
     - **promotion**: conversion to a higher data type.
     - **demotion**: conversion to a lower data type.
+- **pretest loop**: a loop where the condition is evaluated before the loop executes.
+- **post test loop**: a loop where condition is evaluated after the loop executes. Eg: do-while loop.
+- **sentinel**: a value in a list of values that indicates the end of a list. A value that can't be confused with a valid value like -1.

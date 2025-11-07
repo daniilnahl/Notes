@@ -38,7 +38,7 @@ Edge Impulse is a platform that allows to deploy and train ai models on variety 
         - Training(60%): data on which the model will be based on.
         - Validation(20%): data on which hyperparamters of the model will be fine tuned.
         - Testing(20%): data on which the final model will be evaluated on.
-4. Create imuplse -> select spectral analysis and "learning block" (type of ML).
+4. Create impulse -> select spectral analysis and "learning block" (type of ML).
 
 5. Go to spectral features -> generate features.
     - Extract feature sets from the data (done auto). 
