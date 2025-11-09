@@ -1,4 +1,3 @@
-
 ### What is Prompt Engineering?
 RTG Framework is:
 - Role: whats role are you giving the AI? Stock investor, software engineer, etc?
