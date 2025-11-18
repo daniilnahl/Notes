@@ -1,0 +1,1 @@
+Basic syntax, data types, control flow (loops, if/else), functions, basic I/O, simple arrays.

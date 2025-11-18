@@ -1,4 +1,4 @@
-# Escape Sequences
+# Escape Sequences in C++
 
 - Newline: `\n`  
 - Horizontal tab: `\t`  
