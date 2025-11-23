@@ -1,4 +1,4 @@
-## Compiler vs Interpreter
+## Compiler vs Interpreter (Methods of language execution)
 |Feature|Compiled Languages|Interpreted Languages|
 |---|---|---|
 |**Execution Speed**|Faster|Slower|
