@@ -10,3 +10,4 @@
         - **Constructor Function**: automatically called when an object of class is created ot init. the object. **NOTE**: class can have more than 1 constructor, but must **HAVE DEFAULT CONSTRUCTOR.**
             - **Constructor delegation**: In c++ a constructor in a class can call another constructor in the same class.
         - **Destructor Function**: member function automatically called when an object is destroyed. In c++ its, "~className". Only 1 is allowed.
+    - **Member initialization list:**

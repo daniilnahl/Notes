@@ -31,17 +31,20 @@ void Motor::setSpeed(int newSpeedPercent)
     // } else {
     //     speedPercent = newSpeedPercent;
     // }
+    if (newSpeedPercent > 100) speedPercent = 100;
+    else if( newSpeedPercent < -100) speedPercent = -100;
+    else speedPercent = newSpeedPercent;
 }
 
 int Motor::getSpeed() const
 {
     // TODO: return the current speedPercent.
-    return 0; // temporary placeholder
+    return speedPercent; 
 }
 
 void Motor::enable()
-{
-    // TODO: set enabled to true.
+{    // TODO: set enabled to true.
+    enabled = true;
 }
 
 void Motor::disable()
@@ -49,18 +52,20 @@ void Motor::disable()
     // TODO:
     // 1) set enabled to false
     // 2) set speedPercent to 0.
+    enabled = false;
+    speedPercent = 0;
 }
 
 bool Motor::isEnabled() const
 {
     // TODO: return the current enabled flag.
-    return false; // temporary placeholder
+    return enabled; 
 }
 
 std::string Motor::getName() const
 {
     // TODO: return the motor name.
-    return ""; // temporary placeholder
+    return name; // temporary placeholder
 }
 
 
@@ -76,18 +81,20 @@ PiCamera::PiCamera()
 
 void PiCamera::startStream()
 {
+    streaming = true;
     // TODO: set streaming to true.
 }
 
 void PiCamera::stopStream()
 {
     // TODO: set streaming to false.
+    streaming = false;
 }
 
 bool PiCamera::isStreaming() const
 {
     // TODO: return streaming.
-    return false; // temporary placeholder
+    return streaming;
 }
 
 
@@ -98,6 +105,14 @@ bool PiCamera::isStreaming() const
 MecanumCar::MecanumCar()
     // TODO:
     // Use a member-initialization list to:
+    MecanumCar(Motor frontLeft(), Motor frontLeft(), Motor frontLeft(), Motor frontLeft(), PiCamera camera(), double x, double y, double headingDeg)
+    :   frontLeft("front-left"),
+        frontRight("front-right"),
+        rearLeft("rear-left"),
+        rearRight("rear-right"),
+        camera(),
+        x(0.0), y(0.0), headingDeg(0.0)
+        
     //  - call the Motor(string) constructor with the appropriate names:
     //      frontLeft("front-left"), frontRight("front-right"),
     //      rearLeft("rear-left"), rearRight("rear-right")
