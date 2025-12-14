@@ -8,6 +8,7 @@
 
 ## What is the time complexity?
 - Selection sort has a time complexity of **$O(n^2)$** in the best, average, and worst cases. This makes it significantly slower for large datasets compared to more efficient algorithms like Quick Sort or Merge Sort ($O(n \log n)$).
+
 ## What are the benefits?
 - It is **easy to understand and implement**.
 - It is an **in-place** sorting algorithm, requiring only a constant **$O(1)$ extra memory space** for temporary storage during swaps.
