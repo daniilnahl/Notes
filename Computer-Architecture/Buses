@@ -1,0 +1,7 @@
+#### What is the bus?
+A collection of wires and communication lines that allows different parts of a computer to send and receive data. 
+
+**Three main types of buses**:
+- Data bus: Carries actual data between the CPU, memory, and I/O subsystems.; the number of bits carried is usually the same as the CPU register size.
+- Address bus: Transmits memory addresses so the CPU knows where to read or write data.
+- Control bus: Sends control signals, dictating whether the CPU is reading, writing, or performing another operation.

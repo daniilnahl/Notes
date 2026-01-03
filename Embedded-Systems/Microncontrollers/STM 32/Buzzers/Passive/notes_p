@@ -1,0 +1,4 @@
+1. What is a passive buzzer?
+A buzzer that needs an external source to produce a sound(external oscillator). Benefits of this are that this type can produce various sounds depending on the frequency.
+
+IT DOES NOT HAVE A BUILT-IN OSCILLATOR which allows it to produce sound WITHOUT an external source.

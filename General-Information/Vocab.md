@@ -1,0 +1,34 @@
+### Vocabulary
+- **Edge Impulse**: Deploys MLs on microcontrollers, helps pick the right model.
+- **Sensi ML**: like Edge Impulse, but for detecting data patterns on sensors.
+- **TVM**: Complier/Optimizer, take existing ML models and optimizes them to run extremely efficiently on microcontroller, CPUs, GPUs and other hardware.
+- **GCC**: C/C++ compiler.
+- **TFLu** - interpreter that runs pre-trained ML models on a microcontroller.
+- **CI/CD** - Continuous Integration and Continuous Delivery. A method of software engineering that allows fast delivery of new versions of code.
+    - Continous Integration:
+    - Continuous Delivery:
+- **function overload** - having multiple functions with the same name within the same scope, but with different signatures (different numbers or types of parameters). This allows a single function name to be used for different, but related, operations based on the input arguments. 
+- **determinstic**: means that the system produces the same result every time given the same input.
+- **probabilistic**:
+- **NPU**:
+- **Scalar data type**: capable of holding a single value.
+- **Aggregate data type**: capble of holding collection of values.
+- **Literal**: a piece of data that is written directly in the source code of a program. Ex: 'A', "Anamial"; different from declaring a variable with that value.
+- **coercion**: automatic conversion of an operand to another data type.
+    - **promotion**: conversion to a higher data type.
+    - **demotion**: conversion to a lower data type.
+- **pretest loop**: a loop where the condition is evaluated before the loop executes.
+- **post test loop**: a loop where condition is evaluated after the loop executes. Eg: do-while loop.
+- **sentinel**: a value in a list of values that indicates the end of a list. A value that can't be confused with a valid value like -1.
+- **abstraction**: concept in SDE that allows a programmer to design a solution and use specific methods for a certain purpose without concern/knowing how that method works. Eg: .push_back(), pow(), etc.
+- **OOP**: Object Oriented Programming, revolves around the idea of an object which is an entity that combines data and functions into a single unit:
+    - **Object**: entity that combines data and functions and acts as a single unit.
+    - **Attributes**: data items/values of an object stored in its *member variables*.
+    - **data hiding**: restricting data access and ability to modify to only certain members of an object.
+    - **encapsulation**: bundling of an object's data and functions into a single entity.    
+    - **Member functions**: functions that act on the attributes of the class. *There are these types:*
+        - **Acessor/Get/Getter Function**: uses data but doesnt modify data. *Use 'get' in the name.*
+        - **Mutator/Set/Setter Function**: uses data and modifies data. *Use 'set' in the name.*
+        - **Constructor Function**: automatically called when an object of class is created ot init. the object. **NOTE**: class can have more than 1 constructor, but must **HAVE DEFAULT CONSTRUCTOR.**
+            - **Constructor delegation**: In c++ a constructor in a class can call another constructor in the same class.
+        - **Destructor Function**: member function automatically called when an object is destroyed. In c++ its, "~className". Only 1 is allowed.

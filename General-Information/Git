@@ -1,0 +1,23 @@
+
+| Command                | what does it do                                                                                                                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| git status             | tells you the status of repository                                                                                                                                                                  |
+| git add                | allows you to add stuff to a future commit                                                                                                                                                          |
+| git commit -m ""       | creates a commit message with the added changes                                                                                                                                                     |
+| git commit -m "" -m "" | Multi-message git commit                                                                                                                                                                            |
+| git push               | Pushes git commit to                                                                                                                                                                                |
+| git --rebase           | when someone pushed onto the same branch and you didnt copy what they pushed this will layer your changes on top of their changes. Basically, combine the two commits with yours being in priority. |
+| git init               | Intializes a repository.                                                                                                                                                                            |
+| git remote add origin <url> | Adds a remote locations for a repository ar provided url.                                                                                                                                       |
+| touch "text.txt" | create a file using git bash                                                                                                                                 |
+
+
+
+# How to write good git commit messages?
+1. **Commit msg must have a TITLE and a BODY! There should be a blank line between title and body.** Do this using 
+```
+git commit -m "Fix bug" -m "Fix bug through delete all code"
+```
+2. **Title must be less than 50 characters** and **Body must be less than 72 characters**.
+3. Describe **what** was done and **why** it was done. DON"T describe the how.
+4. Follow the **imperative mood** meaning your commit message should be the continuation of this sentence: **If applied, this commit...** *fix compiler error*. 

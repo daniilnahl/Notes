@@ -1,0 +1,7 @@
+1. What is UART?
+    A hardware communication protocal that allows two devices to exchange data serially (bit to bit) over just two wires: Tx(transmit) and Rx(receive).
+    Unlike SPI or I2C, UART is asynchronous, meaning it does not use a clock signal to synchronize the transmitter and receiver. Instead, both devices must agree on a common baud rate (data transmission speed).
+
+    What is a common baud rate?
+        The speed at which data is transmitted and received. (bits per second).
+        
