@@ -1,4 +1,5 @@
 import torch
+from torchvision.models import resnet18, ResNet18_Weights
 import numpy as np
 
 
@@ -93,9 +94,29 @@ def tensors():
     print(f"t: {t}")
     print(f"n: {n}")
 
+def autograd():
+    # What is autograd? It is a pytorch differentiation engine that powers neural network training.
+    # loaded pretrained resnet18 model
+    model = resnet18(weights=ResNet18_Weights.DEFAULT)
+    # random tensor to represent an image with 3 channels and height&width of 64
+    data = torch.rand(1, 3, 64, 64)
+    labels = torch.rand(1,1000)
+
+    #forward pass - running input data through the model and each of its layers to make a prediction
+    prediction = model(data)
+
+    #calcuate the error (loss)
+    loss = (prediction - labels).sum()
+    #backpropagate the error through the network, autograd calculates and stores the gradients for each model parameter in the parameter's .grad attribute
+    loss.backward()
+    #load optimizer, with learning rate of 0.01 and momentum (basically how much of previous 'direction' should be considered in this iteration, speeds up the process) 0.9
+    optim = torch.optim.SGD(model.parameters(), lr=1e-2, momentum=0.9)
+    #initiate gradient descent and optimizer adjusts each parameter by its gradient stored with '.grad'
+    optim.step()
+
 def main():
     print("PyTorch version:", torch.__version__)  
-    tensors()
+    autograd()
 
 if __name__ == "__main__":
     main()
