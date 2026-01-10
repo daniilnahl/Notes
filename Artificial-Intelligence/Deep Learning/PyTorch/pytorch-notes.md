@@ -24,6 +24,10 @@ params = list(nn_ex.parameters())
 print(len(params))
 print(params[0].size()) #conv1's weights
 ```
+
+#### Layers?
+- **Convolution Layers**: good at finding features (eyes, wheels, edges). 
+- **Linear Layers**: good at logic. Takes features found by convolution layers and pieces them together to determine if object A and obect B make up object C. 
 ### 2. Iterate over a dataset of inputs
 ### 3. Process input through the netwrok
 ### 4. Compute the loss (how far the output is from being correct)

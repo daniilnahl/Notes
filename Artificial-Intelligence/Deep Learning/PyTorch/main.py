@@ -205,9 +205,12 @@ def nn_example():
     print(loss.grad_fn.next_functions[0][0].next_functions[0][0])  # ReLU
 
 
+
+    print('conv1.bias.grad before backward and before zeroing')
+    print(nnn.conv1.bias.grad)
     ##back prop.
     nnn.zero_grad() # zeroes the gradient buffers of all parameters
-    print('conv1.bias.grad before backward')
+    print('conv1.bias.grad before backward and after zeroing')
     print(nnn.conv1.bias.grad)
 
     loss.backward()
@@ -234,7 +237,7 @@ def nn_example():
 def main():
 
     print("PyTorch version:", torch.__version__)  
-    nn_example()
+    pp1.main()
 
 if __name__ == "__main__":
     main()
