@@ -50,3 +50,6 @@ main:
     li $v0, 10 #exit system call
     syscall
 ```
+
+### IMPORTANT NOTES
+1. Look at homework 5 of TCES 372 for some examples if MIPS code.
