@@ -83,3 +83,15 @@ pytest_cache/
 
 Courses/TCES 203/assignments/
 PyTorch-Notes/
+
+
+**/venv/
+**/env/
+**/bin/
+**/Include/
+**/Lib/
+**/Scripts/
+**/share/
+**/pyvenv.cfg
+.venv/
+
