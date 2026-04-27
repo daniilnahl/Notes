@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Types/Searching/Binary search/bsearch_notes.md",
+                "file": "Data-Structures/Binary Tree/trees-101-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bsearch_notes"
+              "title": "trees-101-notes"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "863055f1a07dd86c",
@@ -170,6 +168,13 @@
   },
   "active": "51dacdc52eabbbe6",
   "lastOpenFiles": [
+    "Data-Structures/Binary Tree/implementations/Node_BT.py",
+    "Data-Structures/Binary Tree/implementations/Node_BT.java",
+    "Data-Structures/Binary Tree/implementations/Node_BT.cpp",
+    "Data-Structures/Binary Tree/implementations/Node_BT.c",
+    "Data-Structures/Binary Tree/implementations",
+    "Data-Structures/Binary Tree/binary-tree_notes.md",
+    "Data-Structures/Binary Tree/trees-101-notes.md",
     "Artificial Intelligence/Machine Learning/machine learning notes.md",
     "Languages/C/Bit Manipulation/bits_mani_notes.md"
   ]
