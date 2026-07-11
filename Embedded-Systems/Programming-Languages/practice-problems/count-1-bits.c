@@ -23,15 +23,16 @@ int hammingWeight_1(uint32_t n) {
 * bit manipulation trick
 **/
 
-int hammingWeight_2(uint32_t n) {
+int hammingWeight(uint32_t n) {
     int count = 0;
-    while (n != 0){
-        n &= n-1;
+    while (n>0){
+        n = n & (n-1);
         count++;
     }
 
     return count;
 }
+
 //--- Test your solution ---
 int main() {
     int nums[] = {11, 128, 2147483645, 3, 16};

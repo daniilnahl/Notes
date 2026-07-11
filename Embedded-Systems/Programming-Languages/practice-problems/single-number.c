@@ -9,13 +9,14 @@
 // all the XOR operations cancel out the repeating numbers and only leave the number that has 1 occurence. 
 #include <stdio.h>
 
-int singleNumber(int* nums, int numsSize) {
-    int i = nums[0];
-    for (int j =1; j < numsSize; j++){
-        i ^= nums[j];
+int singleNumber(const int* nums, int numsSize) {
+    int single_num = 0;
+
+    for (size_t i=0; i < numsSize; i++){
+        single_num = single_num ^ nums[i];
     }
 
-    return i;
+    return single_num;
 }
 
 int main() {
