@@ -3,6 +3,9 @@
 - It has ==limited== resources. 
 An embedded system is a specialized computing system that combines a microprocessor (or microcontroller) with a set of peripherals (such as sensors, actuators, and communication interfaces). These peripherals enable the system to take input (e.g., from sensors or user interfaces) and produce output (e.g., to displays, motors, or other devices).
 
+
+*(volatile unsigned long *) (address + 0x00)): pointers to a specific register. Compiler treats this as a memory mapped registers. Volatile keyword forces the compiler to actually read the memory otherwise it would be treated as a simple variable and not get updated whenever IO is interacted with. 
+
 ### Vocab
 - **STM 32** - a family of 32-bit microcontrollers (MCUs) made by STMicroelectronics based on the ARM Cortex-M processor core.
 - **Integrated Circuit (IC)** - a small chip that contains many electronic components, such as transistors, resistors, and capacitors, that are all interconnected. (Broad term).
