@@ -1,18 +1,18 @@
-### Computer Architecture 
+# Computer Architecture 
 The design and organization of core computer components such as CPU, memory and I/O interactions. This concept affects how the efficiently a system processes data.
 
-#### Subfields
+## Subfields
 - [Instruction set architecture (ISA)](obsidian://open?vault=Coding&file=Microcontroller%20Architecture%2FInstruction%20Set%20Architecture%20(ISA)): gives instructions to CPU on how to communicate with hardware. 
 - **Microarchitecture:** determines how internal components of the CPU are organized and interact. Basically, determines how the CPU handles the instructions from the ISA.
 - **Memory subsystem architecture:** how data is stored, accessed, and retrieved across different types of memory. 
 - [I/O subsystem architecture](obsidian://open?vault=Coding&file=Computer%20Architecture%2FIO%20Systems): handles the data transfer between CPU and external devices.
 
-#### CPU 
-##### What is it?
+## CPU 
+#### What is it?
 Central processing unit is responsible for executing instructions and processing data. The CPU receives data from memory subsystem. The two are connected by a [bus architecture](obsidian://open?vault=Coding&file=Computer%20Architecture%2FBuses%20Architecture).
 
 CPU is made up of five core parts: arithmetic logic unit (ALU), registers, program counter, control logic and data path.
-##### How does it work?
+#### How does it work?
 - **Arithmetic logic unit**: where CPU performs mathematical operations. Usually, has two inputs and one output. 
 - **Registers:** small, high speed memory locations that hold temp data which the CPU is working on(like scratch notes). Hold units of data of 8, 32, 64 bits.
 - **Data path**: determines how information moves throughout the CPU.
@@ -21,8 +21,8 @@ CPU is made up of five core parts: arithmetic logic unit (ALU), registers, progr
 
 
 
-#### Memory Subsystem 
-##### What is it?
+## Memory Subsystem 
+### What is it?
 There are **two** types of memory: Volatile  and non-volatile).
 - RAM (Volatile): where data is stored fast, but temporarily. Volatile because data is lost when the power is turned off. 
 - Long term storage(Non volatile): slow but larger than RAM. Stores data permanently (SSD, HDD). 
@@ -32,20 +32,34 @@ There are **two** types of memory: Volatile  and non-volatile).
 - Data memory: where information that the programs works with is stored.
 CPU fetches instructions from program memory, executes them, and uses data stored in data memory to carry the instructions out. 
 
-##### Why is this important? 
+### Why is this important? 
 
-##### How does this work?
+### How does this work?
 
-##### When does this work? When to apply this?
-
-
-#### Registers
-##### What are they?
-
-##### Why is this important? 
-
-##### How does this work?
-
-##### When does this work? When to apply this?
+### When does this work? When to apply this?
 
 
+## Registers
+### What are they?
+
+### Why is this important? 
+
+### How does this work?
+
+### When does this work? When to apply this?
+
+
+
+## What is the bus?
+A collection of wires and communication lines that allows different parts of a computer to send and receive data. 
+
+**Three main types of buses**:
+- Data bus: Carries actual data between the CPU, memory, and I/O subsystems.; the number of bits carried is usually the same as the CPU register size.
+- Address bus: Transmits memory addresses so the CPU knows where to read or write data.
+- Control bus: Sends control signals, dictating whether the CPU is reading, writing, or performing another operation.
+
+
+## What is IO?
+System of communicating with a computer. Input allows to interact with/send data to computer. Output allows computer to interact with external world/send data out.
+
+## Cache
