@@ -105,7 +105,7 @@ Hardware abstraction layer
 ```
 
 ## Chapter 3: Understanding Build Process and Exploring GNU Toolchain
-#### Reviewing the embedded build process
+### Reviewing the embedded build process
 source files (.h & .c) --> **[preprocessor]** --> preprocessed files (.i) --> **[compiler]** --> assembly files (.s)--> **[assembler]** --> object files (.o) --> **[linker]** --> relocatable file --> **[locator]** --> executable 
 
 1. **Preprocessing**: 
@@ -131,16 +131,39 @@ source files (.h & .c) --> **[preprocessor]** --> preprocessed files (.i) --> **
 - **'.elf'** - executable and linkable file format. The file format that is used to run the embedded application with debug mode through STM32IDE or TI CCS. Includes a bunch of metadata that is not used in the program but is useful for debugger to walk through the app.
 - **'.bin'** - raw binary of the application stripped of all metadata. The bootloader (or programming tool) must be told at what address to put this raw application, and it then loads it sequentially into that specified section of memory.
 
-#### GNU Tools
+### GNU Tools
 Simple breakdown of what each word means in this **'arm-none-eabi-gcc'**:
 1. arm -> the architecture of target
 2. none -> OS for which the code is being compiled for. (Bare-metal in this case)
 3. eabi -> standard for the binary layout of the system, user programs, libraries, etc.
 4. gcc -> GNU compiler collection.
 
+##### GNU ARM Embedded Binary Tools
 
+| Tool | Description |
+| :--- | :--- |
+| `arm-none-eabi-gcc` | The core C compiler driver. It coordinates the preprocessor, compiler, assembler, and linker to build your final executable. |
+| `arm-none-eabi-nm` | Lists symbols (functions, variables) from object files and executables, displaying their memory addresses and section types. |
+| `arm-none-eabi-size` | Prints the memory size of sections (e.g., `.text` for flash, `.data`/`.bss` for RAM) and the total size of the file. |
+| `arm-none-eabi-objdump` | Displays detailed info from object files. Most commonly used to disassemble the binary back into readable assembly code. |
+| `arm-none-eabi-readelf` | Parses and displays the internal structure of ELF files (headers, sections, symbol tables) without relying on debugging tools. |
+| `arm-none-eabi-objcopy` | Copies and translates files between object formats (e.g., stripping metadata to convert your `.elf` into a raw `.bin`). |
 
-#### Building an application from terminal
+##### Common Compiler Flags
+
+| Flag | Description |
+| :--- | :--- |
+| `-Werror` | Treats all compiler warnings as fatal errors, forcing the build to stop until they are fixed. |
+| `-Wall` | Enables a broad, standard set of compiler warnings to catch potentially problematic or unsafe code. |
+| `-ansi` | Enforces strict ANSI C (C89/C90) standard compliance and disables GCC-specific compiler extensions. |
+| `-mcpu=[name]` | Specifies the exact target processor (e.g., `cortex-m7`) so the compiler uses features and optimizations specific to that chip. |
+| `-march=[name]` | Specifies the target instruction set architecture (e.g., `armv7e-m`) rather than a specific processor model. |
+| `-mtune=[name]` | Optimizes the code's performance and scheduling for a specific CPU, without restricting the instructions to *only* that CPU. |
+| `-mthumb` (or `-thumb`) | Instructs the compiler to generate the 16-bit/32-bit Thumb instruction set (which is required for Cortex-M chips like the STM32). |
+| `-marm` | Instructs the compiler to generate the standard 32-bit ARM instruction set (Note: Cortex-M microcontrollers do not support this). |
+| `-I [dir]` | Adds the specified directory `[dir]` to the list of paths the compiler searches when looking for `#include` header files. |
+
+### Building an application from terminal
 - **OpenOCD:** Open on chip debugger. Transferer of firmware to a microcontroller + debugger.
 Below commands starts openOCD with all necessary configuration info to be able to properly communicate with my STM32H743 mcu. 
 ```
