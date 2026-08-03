@@ -83,7 +83,51 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     return head;
 }
 
-//2nd Approach
+/*--------------------------------------------------------------
+2ND APPROACH
+/****** 
+ * WHAT WAS CORE IDEA?
+ The core idea compared to my first solution was to create 2 pointers with one being offset by the Nth value, such that when both the 'offseted' ptr and the slow one starting at the beginning both begin moving by the time
+ the 'offseted' ptr reaches the end of linked list the node in front of slow ptr will be the Nth node (from the tail) to be removed.  
+
+ * The DSA/PATTERN I used were two pointers and simple memory manipulation.
+ * 
+ * Key concepts that I reinforced was using 2 pointer to navigate a linked list.
+ * 
+ * WHAT TIME COMPLEXITY? Time complexity is O (M) where M is all the nodes visited by fast pointer.
+ * 
+ * WHAT SPACE COMPLEXITY? Space compleixty is O (1) as number of variables allocated is fixed.
+ *  ***/
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
+    if (head == NULL || n <= 0) return head;
+
+    //stack allocated thus will de-allocate itself on its own
+    struct ListNode dummy;
+    dummy.next=head;
+
+    struct ListNode* slow = &dummy;
+    struct ListNode* fast = &dummy;
+
+    for (int i = 0; i < n; i++){
+        // if n becomes greater than the list return head
+        if (fast == NULL) return head;
+        fast = fast->next;
+    }
+
+    if (fast == NULL) return head;
+    while (fast != NULL){
+        slow = slow->next;
+        fast = fast->next;
+    }
+
+    struct ListNode* remove_node = slow->next;
+    slow->next=slow->next->next;
+    free(remove_node);
+ 
+    return dummy.next;
+}
+
+
 
 int main() {
     // Test Case 1: Remove a middle node
