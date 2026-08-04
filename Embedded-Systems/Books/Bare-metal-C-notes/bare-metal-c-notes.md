@@ -234,3 +234,28 @@ monitor resume
 Also additonal note, whenever you build stuff in STM32IDE the terminal shows you what build and compile commands are run. You can always take those and manually re-do the whole process.
 
 
+## Chapter 4: Linker & Startup File
+### Memory Types
+- **Flash Memory:** non-volatile memory (persists after power down). 
+	1. Where executable code is stored.
+	2. Read-only.
+	3. For STM32, starts at '0x08000000'.
+	4. Vector table location at '0x08000004'.
+- **SRAM:** volatile memory (gets erased after power down).
+	1. Used for temporary data storage during program execution.
+	2. Read and write.
+	3. For STM32, starts at '0x20000000'
+- **Peripheral Memory**: contains registers that are used to configure and manange peripherals. 
+	- **Memory Mapped I/O**: method where peripheral registers are assigned specific addresses in the system's memory space. This allow firmware to directly interact with peripherals by reading and writing to those registers (memory addresses).
+
+### Linker Script 
+Linker script specifies where executable code, initialized and uninitialized data are to be placed in a microcontroller's memory. 
+1. It provides the memory map layout (aka guide for the organization of memory)
+
+**Going back to build process (linker)**
+Linker is responsible for taking all the .o files and resolving all refernces and creating one cohesive file, *but what does it actually organize within the .o files?*
+
+Each '.o' files has these sections:
+1. **Loadable Section:** content that must be loaded into memory at runtime (executable code and inited data). 
+2. **Allocatable Section:** signal that area must be reserved for uninited data during runtime.
+3. **Non-loadable, non-allocatable sections:** containts metadata and debug information. 
