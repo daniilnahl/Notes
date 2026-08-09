@@ -1,4 +1,22 @@
 
+### Binary Tricks
+**Simple check for if a value is a power of 2**
+```
+value & (value - 1) == 0 then YES
+value & (value - 1) != 0 then NO
+```
+
+**Simple Check if value is even**
+```
+#checking that last bit is not 0 (LSB)
+(n & 1) == 0
+```
+
+**Mask of 1 bits only at even positions:**
+```
+# can use to find powers of 4
+0x55555555 ---> 01010101010101010101010101010101
+```
 
 ### What are standard memory segments and where do variable types live within them?
 The memory segment is split into 4 regions:
