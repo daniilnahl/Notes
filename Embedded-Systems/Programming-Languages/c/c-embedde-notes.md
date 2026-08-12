@@ -18,6 +18,11 @@ value & (value - 1) != 0 then NO
 0x55555555 ---> 01010101010101010101010101010101
 ```
 
+**Mask of 1 bits only at ODD positions**
+```
+0xAAAAAAAA
+```
+
 ### What are standard memory segments and where do variable types live within them?
 The memory segment is split into 4 regions:
 1. *.bss*           -> 
