@@ -1,7 +1,7 @@
 
+# 
 
-
-### Linus specific tips
+### Linux specific tips
 ```
 lsusb
 ```
