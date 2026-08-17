@@ -36,3 +36,20 @@ char* addBinary(const char* a, const char* b) {
 
     return res;
 }
+
+/****** 
+ * WHAT WAS CORE IDEA?
+ The core idea was to start with allocating heap memory for the resulting string ensuring that both '\0' and an extra 1 will fit within it.
+ Then starting with the LSB bit of each binary string and looping a while loop under the conditions of that all pointers are greater than or equal to 0 and that carry_out bit has a value (of 1).
+ Within that loop assign sum value the carry bit from the previous summation and add up the values of each of the strings by casting the char values into their ASCII integer representation and subing by '0'.
+ This works because each numeric value in ASCII begins from '0' + n. Eg '0' is x and '1' is x + 1. Which perfectly works for the binary summation.
+ Then to determine the value of the current resulting bit AND sum againt a 1 and then add '0' to cast that back to a char. 
+ To ensure the carry bit is properly tracked shift sum by 1 to the right which ensure thats if sum is 2 (10) the carry bit become 1 (01) for the next iteration.
+ Ensure to add null terminator after the while loop and proceed with reversing the result string to put the LSB (which starts at res[0]) into its place at the end of the string.
+
+ * WHAT TIME COMPLEXITY? time complexity is O (max(n,m)) for the longest string
+ * 
+ * WHAT SPACE COMPLEXITY? Space complexity is O (max(n,m) + 2) which is just O(max(n,m)) for the created string based of the longest string
+ * 
+ *  ***/
+
