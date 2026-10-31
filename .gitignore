@@ -95,3 +95,5 @@ PyTorch-Notes/
 **/pyvenv.cfg
 .venv/
 
+# Local snapshots of the vault
+/Backups/

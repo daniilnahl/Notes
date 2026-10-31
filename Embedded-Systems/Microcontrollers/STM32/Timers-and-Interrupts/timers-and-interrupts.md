@@ -1,0 +1,18 @@
+1. What are timers?
+    Dedicated hardware component that acts as a counter. Count at a specifc  rate determined by the system clock.
+
+2. What are timer pins?
+    Pins that be configured to be a timer.
+
+    TIM 1 (advanced-control timer):
+    Usually has extra features.
+
+    TIM 3 (general-purpose timer):
+    Normal timer. 
+
+3. What do timer Configurations do?
+    
+
+---
+
+[Subject index](../../../index.md) · [Home](../../../../README.md)

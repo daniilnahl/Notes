@@ -1,7 +1,0 @@
-1. What is an active buzzer?
-    A buzzer which only needs power and ground to produce a SINGLE tone sound. It produces sound directly when connected to battery.
-    IT HAS A BUILT-IN OSCILLATOR which allows it to produce sound WITHOUT an external source.
-
-
-VOCAB:
-OSCILLATOR - convert DC signal to AC signals. That makes a repetitive waveform. This waveform set to a specific frequency can produce sounds. 

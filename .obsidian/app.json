@@ -1,1 +1,7 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
+}

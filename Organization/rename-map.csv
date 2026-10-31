@@ -1,0 +1,347 @@
+original_path,current_path,disposition
+Algorithms/Introduction/divide_and_conquer.md,Algorithms/Introduction/divide-and-conquer.md,Renamed or moved
+Algorithms/Introduction/run_time.md,Algorithms/Introduction/runtime.md,Renamed or moved
+Algorithms/Types/Backtracking/backtracking notes.md,Algorithms/Backtracking/backtracking.md,Empty duplicate consolidated
+Algorithms/Types/Backtracking/backtracking practice.cpp,Algorithms/Backtracking/backtracking practice.cpp,Renamed or moved
+Algorithms/Types/General Algorithms/Two Pointer/TwoPoint.java,Algorithms/Two-Pointers/TwoPoint.java,Renamed or moved
+Algorithms/Types/General Algorithms/Two Pointer/example_twop.py,Algorithms/Two-Pointers/example_twop.py,Renamed or moved
+Algorithms/Types/General Algorithms/Two Pointer/two pointer notes,Organization/backlog.md,Empty placeholder moved to checklist
+Algorithms/Types/Recursive/Backtracking/main/backtrack_notes.md,Algorithms/Backtracking/backtracking.md,Renamed or moved
+Algorithms/Types/Recursive/Backtracking/main/backtracking.png,Algorithms/Backtracking/backtracking.png,Renamed or moved
+Algorithms/Types/Recursive/Backtracking/main/bk.py,Algorithms/Backtracking/bk.py,Renamed or moved
+Algorithms/Types/Recursive/Backtracking/maze_recursion/Maze.java,Algorithms/Backtracking/Maze/Maze.java,Renamed or moved
+Algorithms/Types/Recursive/Backtracking/maze_recursion/maza_main.java,Algorithms/Backtracking/Maze/maza_main.java,Renamed or moved
+Algorithms/Types/Recursive/Basics/Recursion_java.java,Algorithms/Recursion/Recursion_java.java,Renamed or moved
+Algorithms/Types/Recursive/Basics/basic_rc_notes.md,Algorithms/Recursion/recursion.md,Renamed or moved
+Algorithms/Types/Recursive/Basics/examples of recursion.cpp,Algorithms/Recursion/examples of recursion.cpp,Renamed or moved
+Algorithms/Types/Searching/Binary search/binary examples.py,Algorithms/Searching/Binary-Search/binary examples.py,Renamed or moved
+Algorithms/Types/Searching/Binary search/binary_ex.cpp,Algorithms/Searching/Binary-Search/binary_ex.cpp,Renamed or moved
+Algorithms/Types/Searching/Binary search/binary_search_notes.md,Algorithms/Searching/Binary-Search/binary-search.md,Renamed or moved
+Algorithms/Types/Searching/Linear search/linear_search_notes.md,Algorithms/Searching/Linear-Search/linear-search.md,Renamed or moved
+Algorithms/Types/Sorting/Bubble Sort/bubble_sort_notes.md,Algorithms/Sorting/Bubble-Sort/bubble-sort.md,Renamed or moved
+Algorithms/Types/Sorting/Insertion Sort/I_sort_notes.md,Algorithms/Sorting/Insertion-Sort/insertion-sort.md,Renamed or moved
+Algorithms/Types/Sorting/Insertion Sort/Insertion_sort.gif,Algorithms/Sorting/Insertion-Sort/Insertion_sort.gif,Renamed or moved
+Algorithms/Types/Sorting/Insertion Sort/ins_s.java,Algorithms/Sorting/Insertion-Sort/ins_s.java,Renamed or moved
+Algorithms/Types/Sorting/Merge Sort/Merge-sort-example-300px.gif,Algorithms/Sorting/Merge-Sort/Merge-sort-example-300px.gif,Renamed or moved
+Algorithms/Types/Sorting/Merge Sort/merge_sort.md,Algorithms/Sorting/Merge-Sort/merge-sort.md,Renamed or moved
+Algorithms/Types/Sorting/Merge Sort/ms.java,Algorithms/Sorting/Merge-Sort/ms.java,Renamed or moved
+Algorithms/Types/Sorting/Quicksort/quicksort_notes.md,Algorithms/Sorting/Quicksort/quicksort.md,Renamed or moved
+Algorithms/Types/Sorting/Quicksort/quicksortt.cpp,Algorithms/Sorting/Quicksort/quicksortt.cpp,Renamed or moved
+Algorithms/Types/Sorting/Quicksort/quickssort.py,Algorithms/Sorting/Quicksort/quickssort.py,Renamed or moved
+Algorithms/Types/Sorting/Selection Sort/sc.c,Algorithms/Sorting/Selection-Sort/sc.c,Renamed or moved
+Algorithms/Types/Sorting/Selection Sort/sc.py,Algorithms/Sorting/Selection-Sort/sc.py,Renamed or moved
+Algorithms/Types/Sorting/Selection Sort/selection_sort_ex.cpp,Algorithms/Sorting/Selection-Sort/selection_sort_ex.cpp,Renamed or moved
+Algorithms/Types/Sorting/Selection Sort/selection_sort_examples.py,Algorithms/Sorting/Selection-Sort/selection_sort_examples.py,Renamed or moved
+Algorithms/Types/Sorting/Selection Sort/selection_sort_notes.md,Algorithms/Sorting/Selection-Sort/selection-sort.md,Renamed or moved
+Algorithms/Types/Sorting/Topological Sort/topological sort notes.md,Algorithms/Sorting/Topological-Sort/topological-sort.md,Renamed or moved
+Algorithms/Types/Tree Algorithms/bfs tree.cpp,Algorithms/Tree-Traversal/bfs tree.cpp,Renamed or moved
+Algorithms/Types/Tree Algorithms/dfs tree.cpp,Algorithms/Tree-Traversal/dfs tree.cpp,Renamed or moved
+Artificial-Intelligence/Datasets/notes-datasets.md,Artificial-Intelligence/Datasets/datasets.md,Renamed or moved
+Artificial-Intelligence/Deep Learning/PyTorch/main.py,Artificial-Intelligence/Deep Learning/PyTorch/main.py,Kept
+Artificial-Intelligence/Deep Learning/PyTorch/pytorch-notes.md,Artificial-Intelligence/Deep Learning/PyTorch/pytorch.md,Renamed or moved
+Artificial-Intelligence/Deep Learning/PyTorch/pytorch_practice1.py,Artificial-Intelligence/Deep Learning/PyTorch/pytorch_practice1.py,Kept
+Artificial-Intelligence/Edge AI/edge ai notes.md,Artificial-Intelligence/Edge-AI/edge-ai.md,Renamed or moved
+Artificial-Intelligence/Federated-Learning/Flower/flower-notes.md,Organization/backlog.md,Empty placeholder moved to checklist
+Artificial-Intelligence/Generative AI/Agentic AI/agentic ai notes.md,Organization/backlog.md,Empty placeholder moved to checklist
+Artificial-Intelligence/Generative AI/LLMs/LLMs notes.md,Artificial-Intelligence/Generative-AI/LLMs/llms.md,Renamed or moved
+Artificial-Intelligence/Generative AI/Prompt Engineering/Image generation using non-code AI TOOLS.md,Artificial-Intelligence/Generative-AI/Prompt-Engineering/image-generation-tools.md,Renamed or moved
+Artificial-Intelligence/Generative AI/Prompt Engineering/Prompt Engineering.md,Artificial-Intelligence/Generative-AI/Prompt-Engineering/prompt-engineering.md,Renamed or moved
+Artificial-Intelligence/ML-Practice/california-housing-problem.py,Artificial-Intelligence/ML-Practice/california-housing-problem.py,Kept
+Artificial-Intelligence/Machine Learning/Applications/Anomaly Detection/anomaly detection notes.md,Artificial-Intelligence/Machine-Learning/Applications/Anomaly-Detection/anomaly-detection.md,Renamed or moved
+Artificial-Intelligence/Machine Learning/Applications/Classification/Audio classification.md,Artificial-Intelligence/Machine-Learning/Applications/Classification/audio-classification.md,Renamed or moved
+Artificial-Intelligence/Machine Learning/Applications/Classification/Motion classification.md,Artificial-Intelligence/Machine-Learning/Applications/Classification/motion-classification.md,Renamed or moved
+Artificial-Intelligence/Machine Learning/Edge ML/ml on embedded devices.md,Artificial-Intelligence/Edge-AI/tinyml.md,Renamed or moved
+Artificial-Intelligence/Machine Learning/machine learning notes.md,Artificial-Intelligence/Machine-Learning/machine-learning.md,Renamed or moved
+Artificial-Intelligence/Machine Learning/models.md,Artificial-Intelligence/Machine-Learning/models.md,Renamed or moved
+Artificial-Intelligence/Math-for-Machine-Learning/Calculus/jacobian-and-hesian-matrices-101.pdf,Artificial-Intelligence/Math-for-Machine-Learning/Calculus/jacobian-and-hesian-matrices-101.pdf,Kept
+Artificial-Intelligence/Math-for-Machine-Learning/Calculus/jacobian-hesian-matrices.md,Organization/backlog.md,Empty placeholder moved to checklist
+Artificial-Intelligence/Neural-Networks/Convolutional Neural Network.md,Artificial-Intelligence/Neural-Networks/convolutional-neural-network.md,Renamed or moved
+Artificial-Intelligence/Neural-Networks/dense neural network notes.md,Artificial-Intelligence/Neural-Networks/dense-neural-network.md,Renamed or moved
+Artificial-Intelligence/Neural-Networks/neural network notes.md,Artificial-Intelligence/Neural-Networks/neural-network.md,Renamed or moved
+Computer-Architecture/Cache.md,Computer-Architecture/cache-memory.md,Renamed or moved
+Computer-Architecture/Computer-Architecture-notes-combined,Computer-Architecture/computer-architecture.md,Renamed or moved
+Courses/TCES 203/notes/Week 5/Ch7&Ch8 - Basic Types.md,Courses/TCES 203/notes/Week-05/chapters-07-08-basic-types.md,Renamed or moved
+Courses/TCES 230/Logic Design Notes.pdf,Courses/TCES 230/Logic Design Notes.pdf,Kept
+Courses/TCES 310/Signal and System Notes.pdf,Courses/TCES 310/Signal and System Notes.pdf,Kept
+Data-Structures/Binary Tree/binary tree.png,Data-Structures/Binary-Trees/binary tree.png,Renamed or moved
+Data-Structures/Binary Tree/binary-tree_notes.md,Data-Structures/Binary-Trees/binary-tree.md,Renamed or moved
+Data-Structures/Binary Tree/implementations/Node_BT.c,Data-Structures/Binary-Trees/Implementations/Node_BT.c,Renamed or moved
+Data-Structures/Binary Tree/implementations/Node_BT.cpp,Data-Structures/Binary-Trees/Implementations/Node_BT.cpp,Renamed or moved
+Data-Structures/Binary Tree/implementations/Node_BT.java,Data-Structures/Binary-Trees/Implementations/Node_BT.java,Renamed or moved
+Data-Structures/Binary Tree/implementations/Node_BT.py,Data-Structures/Binary-Trees/Implementations/Node_BT.py,Renamed or moved
+Data-Structures/Binary Tree/trees-101-notes.md,Data-Structures/Binary-Trees/trees-101.md,Renamed or moved
+Data-Structures/Heap/heap notes.md,Data-Structures/Heap/heap.md,Renamed or moved
+Data-Structures/Heap/heapifying a vector.cpp,Data-Structures/Heap/heapifying a vector.cpp,Kept
+Data-Structures/Queues/Queue.py,Data-Structures/Queues/Queue.py,Kept
+Data-Structures/Queues/Queue_practical_example.py,Data-Structures/Queues/Queue_practical_example.py,Kept
+Data-Structures/Queues/Queues.c,Data-Structures/Queues/Queues.c,Kept
+Data-Structures/Queues/Queues.java,Data-Structures/Queues/Queues.java,Kept
+Data-Structures/Queues/csbs_queue.java,Data-Structures/Queues/csbs_queue.java,Kept
+Data-Structures/Queues/queues_notes.md,Data-Structures/Queues/queues.md,Renamed or moved
+Data-Structures/Stacks/Stacks.c,Data-Structures/Stacks/Stacks.c,Kept
+Data-Structures/Stacks/Stacks.java,Data-Structures/Stacks/Stacks.java,Kept
+Data-Structures/Stacks/Stacks.py,Data-Structures/Stacks/Stacks.py,Kept
+Data-Structures/Stacks/Stacks_problem_example.py,Data-Structures/Stacks/Stacks_problem_example.py,Kept
+Data-Structures/Stacks/csbs_stacks.java,Data-Structures/Stacks/csbs_stacks.java,Kept
+Data-Structures/Stacks/stacks_notes.md,Data-Structures/Stacks/stacks.md,Renamed or moved
+Embedded-Systems/Books/Bare-metal-C-notes/bare-metal-c-notes.md,Embedded-Systems/Books/Bare-Metal-C/bare-metal-c.md,Renamed or moved
+Embedded-Systems/Communication-Protocols/Bluetooth/BLE/ble notes.md,Embedded-Systems/Communication-Protocols/Bluetooth/BLE/ble.md,Renamed or moved
+Embedded-Systems/Communication-Protocols/Bluetooth/BLE/ble on esp32.md,Embedded-Systems/Communication-Protocols/Bluetooth/BLE/ble-on-esp32.md,Renamed or moved
+Embedded-Systems/Communication-Protocols/I2C/I2C.md,Embedded-Systems/Communication-Protocols/I2C/i2c-protocol.md,Renamed or moved
+Embedded-Systems/Communication-Protocols/I2C/i2c connection check.cpp,Embedded-Systems/Communication-Protocols/I2C/i2c connection check.cpp,Kept
+Embedded-Systems/Communication-Protocols/UART/USART.md,Embedded-Systems/Communication-Protocols/UART/usart-protocol.md,Renamed or moved
+Embedded-Systems/Communication-Protocols/UART/serial_listener_ex.py,Embedded-Systems/Communication-Protocols/UART/serial_listener_ex.py,Kept
+Embedded-Systems/Communication-Protocols/communication protocols vocab.md,Embedded-Systems/Communication-Protocols/protocol-vocabulary.md,Renamed or moved
+Embedded-Systems/General-Embedded-Notes/bootloader-notes.md,Embedded-Systems/Fundamentals/bootloader.md,Renamed or moved
+Embedded-Systems/General-Embedded-Notes/main-embedded-notes.md,Embedded-Systems/Fundamentals/embedded-tips.md,Renamed or moved
+Embedded-Systems/Microncontrollers/ESP 32/GENERAL ESP 32 INFO.md,Embedded-Systems/Microcontrollers/ESP32/esp32.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Buttons/button_hold.c,Embedded-Systems/Microcontrollers/STM32/Buttons/button_hold.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Buzzers/Active/buz_a.c,Embedded-Systems/Microcontrollers/STM32/Buzzers/Active/buz_a.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Buzzers/Active/notes_a,Embedded-Systems/Microcontrollers/STM32/Buzzers/Active/active-buzzers.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Buzzers/Passive/buz_p.c,Embedded-Systems/Microcontrollers/STM32/Buzzers/Passive/buz_p.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Buzzers/Passive/notes_p,Embedded-Systems/Microcontrollers/STM32/Buzzers/Passive/passive-buzzers.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/GENERAL STM32 INFO.md,Embedded-Systems/Microcontrollers/STM32/stm32.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/LCD screens/I2C 1602 LCD Display/code_1602.c,Embedded-Systems/Microcontrollers/STM32/LCD/I2C-1602/code_1602.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/LCD screens/I2C 1602 LCD Display/pin config,Embedded-Systems/Microcontrollers/STM32/LCD/I2C-1602/pin-configuration.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/LED/basic_example.c,Embedded-Systems/Microcontrollers/STM32/LED/basic_example.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/RTC Module/rtc_notes.c,Embedded-Systems/Microcontrollers/STM32/RTC/rtc_notes.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Timers and Interrupts/timer notes,Embedded-Systems/Microcontrollers/STM32/Timers-and-Interrupts/timers-and-interrupts.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/Timers and Interrupts/timer_and_interrupts_ex1.c,Embedded-Systems/Microcontrollers/STM32/Timers-and-Interrupts/timer_and_interrupts_ex1.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/UART/notes_uart,Embedded-Systems/Microcontrollers/STM32/UART/uart.md,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/UART/sample_uart.c,Embedded-Systems/Microcontrollers/STM32/UART/sample_uart.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/bare-metal-c-led-blink/bare-metal-c-led-blink.c,Embedded-Systems/Microcontrollers/STM32/bare-metal-c-led-blink/bare-metal-c-led-blink.c,Renamed or moved
+Embedded-Systems/Microncontrollers/STM 32/running STM project on VS Code,Embedded-Systems/Microcontrollers/STM32/stm32-vscode-setup.md,Renamed or moved
+Embedded-Systems/Programming-Languages/c/add-binary.c,Embedded-Systems/Programming/C/add-binary.c,Renamed or moved
+Embedded-Systems/Programming-Languages/c/c-embedde-notes.md,Embedded-Systems/Programming/C/embedded-c.md,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/atoi_imp.c,Embedded-Systems/Practice-Problems/atoi_imp.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/binary-char-sum.c,Embedded-Systems/Practice-Problems/binary-char-sum.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/binary-to-hex.c,Embedded-Systems/Practice-Problems/binary-to-hex.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/complement.c,Embedded-Systems/Practice-Problems/complement.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/count-1-bits.c,Embedded-Systems/Practice-Problems/count-1-bits.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/detect_sys_endian.c,Embedded-Systems/Practice-Problems/detect_sys_endian.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/hash-map.cpp,Embedded-Systems/Practice-Problems/hash-map.cpp,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/inverse-bits.c,Embedded-Systems/Practice-Problems/inverse-bits.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/memcpy.c,Embedded-Systems/Practice-Problems/memcpy.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/memmove.c,Embedded-Systems/Practice-Problems/memmove.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/my_strlen_my_strcmp.c,Embedded-Systems/Practice-Problems/my_strlen_my_strcmp.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/power-of-2.c,Embedded-Systems/Practice-Problems/power-of-2.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/power-of-4.c,Embedded-Systems/Practice-Problems/power-of-4.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/qa.md,Embedded-Systems/Practice-Problems/qa.md,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/remove-duplicates-list.c,Embedded-Systems/Practice-Problems/remove-duplicates-list.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/remove-nth-node,Embedded-Systems/Practice-Problems/remove-nth-node,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/remove-nth-node.c,Embedded-Systems/Practice-Problems/remove-nth-node.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/reverse-bits.c,Embedded-Systems/Practice-Problems/reverse-bits.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/set_clear_toggle_test_bits.c,Embedded-Systems/Practice-Problems/set_clear_toggle_test_bits.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/single-number.c,Embedded-Systems/Practice-Problems/single-number.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/swap-even-odds.c,Embedded-Systems/Practice-Problems/swap-even-odds.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/swap_bytes.c,Embedded-Systems/Practice-Problems/swap_bytes.c,Renamed or moved
+Embedded-Systems/Programming-Languages/practice-problems/temp.c,Embedded-Systems/Practice-Problems/temp.c,Renamed or moved
+Embedded-Systems/RTOS/freeRTOS/freeRTOS notes.md,Embedded-Systems/RTOS/FreeRTOS/freertos.md,Renamed or moved
+Embedded-Systems/RTOS/rtos notes.md,Embedded-Systems/RTOS/rtos.md,Renamed or moved
+Embedded-Systems/Secure-Boot/secure-boot-notes.md,Embedded-Systems/Secure-Boot/secure-boot.md,Renamed or moved
+Embedded-Systems/Sensors/bmp280.cpp,Embedded-Systems/Sensors/bmp280.cpp,Kept
+Embedded-Systems/Sensors/mq-9.cpp,Embedded-Systems/Sensors/mq-9.cpp,Kept
+Embedded-Systems/Sensors/sen54sdn-t.cpp,Embedded-Systems/Sensors/sen54sdn-t.cpp,Kept
+Embedded-Systems/general information,Embedded-Systems/embedded-systems.md,Renamed or moved
+General-Information/ASCII,General-Information/ascii.md,Renamed or moved
+General-Information/Binary,General-Information/binary.md,Renamed or moved
+General-Information/Git,General-Information/git.md,Renamed or moved
+General-Information/Serialization and Deserialization,General-Information/serialization-and-deserialization.md,Renamed or moved
+General-Information/Vocab.md,General-Information/vocabulary.md,Renamed or moved
+General-Information/Web-scraping.md,General-Information/web-scraping-basics.md,Renamed or moved
+Languages/C++/Advanced_Topics/Error Handling/error handling notes.md,Languages/C++/Error-Handling/error-handling.md,Renamed or moved
+Languages/C++/Advanced_Topics/Error Handling/error handling.cpp,Languages/C++/Error-Handling/error handling.cpp,Renamed or moved
+Languages/C++/Advanced_Topics/Templates/Array.h,Languages/C++/Templates/Array.h,Renamed or moved
+Languages/C++/Advanced_Topics/Templates/class template notes.md,Languages/C++/Templates/class-template.md,Renamed or moved
+Languages/C++/Advanced_Topics/Templates/class template practice.cpp,Languages/C++/Templates/class template practice.cpp,Renamed or moved
+Languages/C++/Advanced_Topics/Templates/function template notes.md,Languages/C++/Templates/function-template.md,Renamed or moved
+Languages/C++/Advanced_Topics/Templates/function templates practice.cpp,Languages/C++/Templates/function templates practice.cpp,Renamed or moved
+Languages/C++/Data Types/Advanced Structures/hasmaps/hashmaps.cpp,Languages/C++/Containers/Hash-Maps/hashmaps.cpp,Renamed or moved
+Languages/C++/Data Types/Advanced Structures/pair/pairr.cpp,Languages/C++/Containers/Pair/pairr.cpp,Renamed or moved
+Languages/C++/Data Types/Advanced Structures/vector/vector notes.md,Languages/C++/Containers/Vector/vector.md,Renamed or moved
+Languages/C++/Data Types/Advanced Structures/vector/vectors.cpp,Languages/C++/Containers/Vector/vectors.cpp,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/arrays/arrayss.cpp,Languages/C++/Fundamentals/Arrays/arrayss.cpp,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/basic iterators/iterarotrss.cpp,Languages/C++/Iterators/iterarotrss.cpp,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/basic iterators/notes it basic.md,Languages/C++/Iterators/iterators.md,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/characters/char notes.md,Languages/C++/Fundamentals/Characters/characters.md,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/characters/charr.cpp,Languages/C++/Fundamentals/Characters/charr.cpp,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/data_type_casting.md,Languages/C++/Fundamentals/Data-Types/data-type-casting.md,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/general notes.md,Languages/C++/Fundamentals/Data-Types/primitive-types.md,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/string/string notes.md,Languages/C++/Fundamentals/Strings/string.md,Renamed or moved
+Languages/C++/Data Types/Primitive Structures/string/string_main.cpp,Languages/C++/Fundamentals/Strings/string_main.cpp,Renamed or moved
+Languages/C++/Fundamentals/Expressions/bitwise operators.cpp,Languages/C++/Fundamentals/Expressions/bitwise operators.cpp,Kept
+Languages/C++/Fundamentals/Expressions/other expressions.cpp,Languages/C++/Fundamentals/Expressions/other expressions.cpp,Kept
+Languages/C++/Fundamentals/IO for FIles and Terminal/escape sequences.md,Languages/C++/Fundamentals/IO/escape-sequences.md,Renamed or moved
+Languages/C++/Fundamentals/IO for FIles and Terminal/io_files_c++_notes.md,Languages/C++/Fundamentals/IO/file-io.md,Renamed or moved
+Languages/C++/Fundamentals/IO for FIles and Terminal/io_terminal_c++_notes.md,Languages/C++/Fundamentals/IO/terminal-io.md,Renamed or moved
+Languages/C++/Fundamentals/What is in Fundamentals C++.md,Languages/C++/Fundamentals/fundamentals-overview.md,Renamed or moved
+Languages/C++/Fundamentals/enum_c++_example.cpp,Languages/C++/Fundamentals/enum_c++_example.cpp,Kept
+Languages/C++/Fundamentals/function_notes.md,Languages/C++/Fundamentals/function.md,Renamed or moved
+Languages/C++/Fundamentals/on headers and classes.md,Languages/C++/Fundamentals/headers-and-classes.md,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/class_prac_1.h,Languages/C++/Memory/Pointers/class_prac_1.h,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/data types notes,Languages/C++/Fundamentals/Data-Types/type-sizes.md,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/mainnn.cpp,Languages/C++/Memory/Pointers/mainnn.cpp,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/pointer notes.md,Languages/C++/Memory/Pointers/pointer.md,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/pointers.cpp,Languages/C++/Memory/Pointers/pointers.cpp,Renamed or moved
+Languages/C++/Memory and Pointers/Pointers and References/reference and misc.md,Languages/C++/Memory/Pointers/references-and-qualifiers.md,Renamed or moved
+Languages/C++/Memory and Pointers/Smart Pointers/shared_ptrr.cpp,Languages/C++/Memory/Smart-Pointers/shared_ptrr.cpp,Renamed or moved
+Languages/C++/Memory and Pointers/Smart Pointers/simple pointer error eg.cpp,Languages/C++/Memory/Smart-Pointers/simple pointer error eg.cpp,Renamed or moved
+Languages/C++/Memory and Pointers/Smart Pointers/smart pointers notes.md,Languages/C++/Memory/Smart-Pointers/smart-pointers.md,Renamed or moved
+Languages/C++/Memory and Pointers/Smart Pointers/unique_ptrr.cpp,Languages/C++/Memory/Smart-Pointers/unique_ptrr.cpp,Renamed or moved
+Languages/C++/Memory and Pointers/Smart Pointers/weak_ptrr.cpp,Languages/C++/Memory/Smart-Pointers/weak_ptrr.cpp,Renamed or moved
+Languages/C++/OOP/inheritance notes.md,Languages/C++/OOP/inheritance.md,Renamed or moved
+Languages/C++/OOP/inheritance practice.cpp,Languages/C++/OOP/inheritance practice.cpp,Kept
+Languages/C++/OOP/oop_c++.cpp,Languages/C++/OOP/oop_c++.cpp,Kept
+Languages/C++/OOP/oop_c++.md,Languages/C++/OOP/oop.md,Renamed or moved
+Languages/C++/OOP/oop_system_design.md,Languages/C++/OOP/oop-system-design.md,Renamed or moved
+Languages/C++/STL/Algorithms/algorithms.cpp,Languages/C++/STL/Algorithms/algorithms.cpp,Kept
+Languages/C++/STL/cmath/cmath_notes.c,Languages/C++/STL/Math/cmath_notes.c,Renamed or moved
+Languages/C++/STL/numeric/vector_values_sum.cpp,Languages/C++/STL/Numeric-Algorithms/vector_values_sum.cpp,Renamed or moved
+Languages/C++/STL/sstream/sstream notes.md,Languages/C++/STL/String-Streams/sstream.md,Renamed or moved
+Languages/C++/STL/sstream/sstream practice.cpp,Languages/C++/STL/String-Streams/sstream practice.cpp,Renamed or moved
+Languages/C++/Structure&Typedef/struct_c++_example.cpp,Languages/C++/Fundamentals/Structures-and-Type-Aliases/struct_c++_example.cpp,Renamed or moved
+Languages/C++/Structure&Typedef/struct_notes_c++.md,Languages/C++/Fundamentals/Structures-and-Type-Aliases/structures.md,Renamed or moved
+Languages/C++/Structure&Typedef/typedef_c++_notes.md,Languages/C++/Fundamentals/Structures-and-Type-Aliases/type-aliases.md,Renamed or moved
+Languages/C/Bit Manipulation/bits_mani.c,Languages/C/Bit-Manipulation/bits_mani.c,Renamed or moved
+Languages/C/Bit Manipulation/bits_mani_notes.md,Languages/C/Bit-Manipulation/bit-manipulation.md,Renamed or moved
+Languages/C/Data Structures/Advanced/Structures and Unions/str_and_unions_notes.md,Languages/C/Structures-and-Unions/structures-and-unions.md,Renamed or moved
+Languages/C/Data Structures/Advanced/Structures and Unions/structt.c,Languages/C/Structures-and-Unions/structt.c,Renamed or moved
+Languages/C/Data Structures/Advanced/Structures and Unions/unionn.c,Languages/C/Structures-and-Unions/unionn.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Arrays/arrays_practice.c,Languages/C/Arrays/arrays_practice.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Basic Types.md,Languages/C/Fundamentals/basic-types.md,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/casting.c,Languages/C/Fundamentals/Examples/casting.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/characters.c,Languages/C/Fundamentals/Examples/characters.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/constants.c,Languages/C/Fundamentals/Examples/constants.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/stringg.c,Languages/C/Fundamentals/Examples/stringg.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/uint8_t.c,Languages/C/Fundamentals/Examples/uint8_t.c,Renamed or moved
+Languages/C/Data Structures/Primitive/Others/unsignedd.c,Languages/C/Fundamentals/Examples/unsignedd.c,Renamed or moved
+Languages/C/IO/Console/difference between prints.md,Languages/C/IO/Console/difference-between-prints.md,Renamed or moved
+Languages/C/IO/Console/escape sequences.md,Organization/backlog.md,Empty placeholder moved to checklist
+Languages/C/IO/Console/format specifiers.txt,Languages/C/IO/Console/format specifiers.txt,Kept
+Languages/C/IO/Console/io.c,Languages/C/IO/Console/io.c,Kept
+Languages/C/IO/File/file_io.c,Languages/C/IO/File/file_io.c,Kept
+Languages/C/IO/File/file_io_complex.c,Languages/C/IO/File/file_io_complex.c,Kept
+Languages/C/IO/File/io files notes.md,Languages/C/IO/File/io-files.md,Renamed or moved
+Languages/C/Memory Allocation/basics.c,Languages/C/Memory-Allocation/basics.c,Renamed or moved
+Languages/C/Memory Allocation/dynamic_memory_notes.md,Languages/C/Memory-Allocation/dynamic-memory.md,Renamed or moved
+Languages/C/Memory Allocation/heap vs stack notes.md,Languages/C/Memory-Allocation/heap-vs-stack.md,Renamed or moved
+Languages/C/Memory Allocation/memory leakage.md,Languages/C/Memory-Allocation/memory-leakage.md,Renamed or moved
+Languages/C/Memory Allocation/stack_vs_heap.c,Languages/C/Memory-Allocation/stack_vs_heap.c,Renamed or moved
+Languages/C/Pointers & References/p and r notes.md,Languages/C/Pointers/pointers.md,Renamed or moved
+Languages/C/Pointers & References/pointers.c,Languages/C/Pointers/pointers.c,Renamed or moved
+Languages/C/Preprocessor Directives/pd.c,Languages/C/Preprocessor/pd.c,Renamed or moved
+Languages/C/Preprocessor Directives/prep dir notes.md,Languages/C/Preprocessor/preprocessor.md,Renamed or moved
+Languages/Java/Data Structures/List & Arrays/list&array.java,Languages/Java/Data-Structures/Arrays/list&array.java,Renamed or moved
+Languages/Java/Data Structures/List & Arrays/list&arrays_java_notes.md,Languages/Java/Data-Structures/Arrays/arrays.md,Renamed or moved
+Languages/Java/Data Structures/List & Arrays/practice/Practice.java,Languages/Java/Data-Structures/Arrays/Examples/Practice.java,Renamed or moved
+Languages/Java/Data Structures/List & Arrays/practice/csbs.java,Languages/Java/Data-Structures/Arrays/Examples/csbs.java,Renamed or moved
+Languages/Java/Data Structures/Sets/set_notes.md,Languages/Java/Data-Structures/Sets/sets.md,Renamed or moved
+Languages/Java/Data Structures/Sets/setss.java,Languages/Java/Data-Structures/Sets/setss.java,Renamed or moved
+Languages/Java/Data Structures/array_lists/ArrayIntList.java,Languages/Java/Data-Structures/Array-Lists/ArrayIntList.java,Renamed or moved
+Languages/Java/Data Structures/array_lists/arr_li.md,Languages/Java/Data-Structures/Array-Lists/array-lists.md,Renamed or moved
+Languages/Java/Data Structures/array_lists/csbs_prac.java,Languages/Java/Data-Structures/Array-Lists/csbs_prac.java,Renamed or moved
+Languages/Java/Data Structures/linked_lists/Example_lists.java,Languages/Java/Data-Structures/Linked-Lists/Example_lists.java,Renamed or moved
+Languages/Java/Data Structures/linked_lists/ll_notes.md,Languages/Java/Data-Structures/Linked-Lists/linked-lists.md,Renamed or moved
+Languages/Java/Data Structures/maps/map_examples.java,Languages/Java/Data-Structures/Maps/map_examples.java,Renamed or moved
+Languages/Java/Data Structures/maps/maps_notes.md,Languages/Java/Data-Structures/Maps/maps.md,Renamed or moved
+Languages/Java/Files IO/io_java_notes.md,Languages/Java/File-IO/file-io.md,Renamed or moved
+Languages/Java/Files IO/practice/cbsb1.java,Languages/Java/File-IO/Examples/cbsb1.java,Renamed or moved
+Languages/Java/Files IO/practice/cbsb2.java,Languages/Java/File-IO/Examples/cbsb2.java,Renamed or moved
+Languages/Java/Files IO/practice/csbs.java,Languages/Java/File-IO/Examples/csbs.java,Renamed or moved
+Languages/Java/Files IO/practice/pigg1.txt,Languages/Java/File-IO/Examples/pigg1.txt,Renamed or moved
+Languages/Java/Files IO/practice/piglation.java,Languages/Java/File-IO/Examples/piglation.java,Renamed or moved
+Languages/Java/Files IO/practice/piglation2.java,Languages/Java/File-IO/Examples/piglation2.java,Renamed or moved
+Languages/Java/Iterators/it_ex.java,Languages/Java/Iterators/it_ex.java,Kept
+Languages/Java/Iterators/it_java_notes.md,Languages/Java/Iterators/iterators.md,Renamed or moved
+Languages/Java/OOP/inheritance practice/Example1.java,Languages/Java/OOP/Inheritance-Examples/Example1.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/Example2.java,Languages/Java/OOP/Inheritance-Examples/Example2.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/Example3.java,Languages/Java/OOP/Inheritance-Examples/Example3.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/Rect.java,Languages/Java/OOP/Inheritance-Examples/Rect.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/Shape.java,Languages/Java/OOP/Inheritance-Examples/Shape.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/equalscode/Equalss.java,Languages/Java/OOP/Inheritance-Examples/equalscode/Equalss.java,Renamed or moved
+Languages/Java/OOP/inheritance practice/equalscode/Point.java,Languages/Java/OOP/Inheritance-Examples/equalscode/Point.java,Renamed or moved
+Languages/Java/OOP/inheritance_java.md,Languages/Java/OOP/inheritance.md,Renamed or moved
+Languages/Java/OOP/oop_java_notes.md,Languages/Java/OOP/oop.md,Renamed or moved
+Languages/Java/OOP/practice/Circle.java,Languages/Java/OOP/Examples/Circle.java,Renamed or moved
+Languages/Java/OOP/practice/Date.java,Languages/Java/OOP/Examples/Date.java,Renamed or moved
+Languages/Java/OOP/practice/Points.java,Languages/Java/OOP/Examples/Points.java,Renamed or moved
+Languages/Java/OOP/practice/ReferenceMystery1.java,Languages/Java/OOP/Examples/ReferenceMystery1.java,Renamed or moved
+Languages/Java/OOP/practice/Student.java,Languages/Java/OOP/Examples/Student.java,Renamed or moved
+Languages/Java/OOP/practice/clockAdvance.java,Languages/Java/OOP/Examples/clockAdvance.java,Renamed or moved
+Languages/Java/OOP/practice/example.java,Languages/Java/OOP/Examples/example.java,Renamed or moved
+Languages/Java/OOP/practice/inheritance/Custodian.java,Languages/Java/OOP/Examples/Inheritance/Custodian.java,Renamed or moved
+Languages/Java/OOP/practice/inheritance/Employee.java,Languages/Java/OOP/Examples/Inheritance/Employee.java,Renamed or moved
+Languages/MIPS-assembly/basics/mips-assembly-notes.md,Languages/MIPS-assembly/basics/mips-assembly.md,Renamed or moved
+Languages/MIPS-assembly/basics/practice-problem1.asm,Languages/MIPS-assembly/basics/practice-problem1.asm,Kept
+Languages/Python/Data structures/ds_py_notes.md,Languages/Python/Data-Structures/data-structures.md,Renamed or moved
+Languages/Python/Data structures/dt_py.py,Languages/Python/Data-Structures/dt_py.py,Renamed or moved
+Languages/Python/Data structures/list_comprehension.md,Languages/Python/Data-Structures/list-comprehension.md,Renamed or moved
+Languages/Python/Files IO/io_py.py,Languages/Python/File-IO/io_py.py,Renamed or moved
+Languages/Python/Files IO/io_py_notes.md,Languages/Python/File-IO/file-io.md,Renamed or moved
+Languages/Python/Files IO/pg37431.txt,Languages/Python/File-IO/pg37431.txt,Renamed or moved
+Languages/Python/Generators & Iterators/gn_py.py,Languages/Python/Generators-and-Iterators/gn_py.py,Renamed or moved
+Languages/Python/Generators & Iterators/gn_py_notes.md,Languages/Python/Generators-and-Iterators/generators.md,Renamed or moved
+Languages/Python/Generators & Iterators/it_py.py,Languages/Python/Generators-and-Iterators/it_py.py,Renamed or moved
+Languages/Python/Generators & Iterators/it_py2.py,Languages/Python/Generators-and-Iterators/it_py2.py,Renamed or moved
+Languages/Python/Generators & Iterators/it_py_notes.md,Languages/Python/Generators-and-Iterators/iterators.md,Renamed or moved
+Languages/Python/Graphing (Matplotlib)/gr_py.py,Languages/Python/Matplotlib/gr_py.py,Renamed or moved
+Languages/Python/Graphing (Matplotlib)/gr_py_notes.md,Languages/Python/Matplotlib/matplotlib.md,Renamed or moved
+Languages/Python/OOP/opp_py.md,Languages/Python/OOP/oop.md,Renamed or moved
+Languages/Python/OOP/opp_py.py,Languages/Python/OOP/opp_py.py,Kept
+Languages/Python/Python Standard Library/Logging/log_py.py,Languages/Python/Standard-Library/Logging/log_py.py,Renamed or moved
+Languages/Python/Python Standard Library/Logging/logging notes.md,Languages/Python/Standard-Library/Logging/logging.md,Renamed or moved
+Languages/Python/Python Standard Library/PSL notes.md,Languages/Python/Standard-Library/standard-library.md,Renamed or moved
+Languages/Python/Python Standard Library/functools_example.py,Languages/Python/Standard-Library/functools_example.py,Renamed or moved
+Languages/Python/Python Standard Library/main.py,Languages/Python/Standard-Library/main.py,Renamed or moved
+Languages/Python/Python Standard Library/pathlib_usecase.py,Languages/Python/Standard-Library/pathlib_usecase.py,Renamed or moved
+Languages/Python/Virtual Environment,Languages/Python/virtual-environment.md,Renamed or moved
+Languages/Types of Languages,Languages/types-of-languages.md,Renamed or moved
+Leetcode-Notes/algorithmic/backtracking/sum_target_combos.cpp,Leetcode-Notes/Patterns/Backtracking/sum_target_combos.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary search/binary search basic.cpp,Leetcode-Notes/Patterns/Binary-Search/binary search basic.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary search/find target after sort.cpp,Leetcode-Notes/Patterns/Binary-Search/find target after sort.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/BFS/BFS standard traversal.cpp,Leetcode-Notes/Patterns/Binary-Trees/BFS/BFS standard traversal.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/DFS/binary tree inorder traversal.cpp,Leetcode-Notes/Patterns/Binary-Trees/DFS/binary tree inorder traversal.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/DFS/binary tree postorder.cpp,Leetcode-Notes/Patterns/Binary-Trees/DFS/binary tree postorder.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/DFS/binary tree preorder.cpp,Leetcode-Notes/Patterns/Binary-Trees/DFS/binary tree preorder.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/DFS/find a node with same val.cpp,Leetcode-Notes/Patterns/Binary-Trees/DFS/find a node with same val.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/binary tree/invert_binary_tree.cpp,Leetcode-Notes/Patterns/Binary-Trees/invert_binary_tree.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/hash map_or_set/maps/two sum.cpp,Leetcode-Notes/Patterns/Hash-Maps-and-Sets/Maps/two sum.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/hash map_or_set/maps/valid anagram group.cpp,Leetcode-Notes/Patterns/Hash-Maps-and-Sets/Maps/valid anagram group.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/hash map_or_set/maps/valid anagram.cpp,Leetcode-Notes/Patterns/Hash-Maps-and-Sets/Maps/valid anagram.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/hash map_or_set/sets/has duplicates.cpp,Leetcode-Notes/Patterns/Hash-Maps-and-Sets/Sets/has duplicates.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/heap/Final Array State After K Multiplication Operations I.cpp,Leetcode-Notes/Patterns/Heap/Final Array State After K Multiplication Operations I.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/heap/k weakest rows in a matric.cpp,Leetcode-Notes/Patterns/Heap/k weakest rows in a matric.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/heap/maximizing average return.cpp,Leetcode-Notes/Patterns/Heap/maximizing average return.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/heap/nth largest element.cpp,Leetcode-Notes/Patterns/Heap/nth largest element.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/heap/sort a string by chars.cpp,Leetcode-Notes/Patterns/Heap/sort a string by chars.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/linked lists/merging_2_ll.cpp,Leetcode-Notes/Patterns/Linked-Lists/merging_2_ll.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/linked lists/rem_duplicates.cpp,Leetcode-Notes/Patterns/Linked-Lists/rem_duplicates.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/linked lists/reverse_linked_list.cpp,Leetcode-Notes/Patterns/Linked-Lists/reverse_linked_list.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/stack/valid parantheses.cpp,Leetcode-Notes/Patterns/Stack/valid parantheses.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/string/circular sentence.cpp,Leetcode-Notes/Patterns/Strings/circular sentence.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/string/length of last word.cpp,Leetcode-Notes/Patterns/Strings/length of last word.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/string/string matching in an array.cpp,Leetcode-Notes/Patterns/Strings/string matching in an array.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/string/unique word.cpp,Leetcode-Notes/Patterns/Strings/unique word.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/1877-min-max-pair-sum-arr.cpp,Leetcode-Notes/Patterns/Two-Pointers/1877-min-max-pair-sum-arr.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/2410-two-pointer.cpp,Leetcode-Notes/Patterns/Two-Pointers/2410-two-pointer.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/75-sort-colors.cpp,Leetcode-Notes/Patterns/Two-Pointers/75-sort-colors.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/948_bag_of_tokens.cpp,Leetcode-Notes/Patterns/Two-Pointers/948_bag_of_tokens.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/Rearrange Array Elements by Sign.cpp,Leetcode-Notes/Patterns/Two-Pointers/Rearrange Array Elements by Sign.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/apend char to string to make subsequence.cpp,Leetcode-Notes/Patterns/Two-Pointers/apend char to string to make subsequence.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/assign cookies.cpp,Leetcode-Notes/Patterns/Two-Pointers/assign cookies.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/backspace string compare.cpp,Leetcode-Notes/Patterns/Two-Pointers/backspace string compare.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/best time to sell stock.cpp,Leetcode-Notes/Patterns/Two-Pointers/best time to sell stock.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/is it a subsequence.cpp,Leetcode-Notes/Patterns/Two-Pointers/is it a subsequence.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/reverse vowels of a string.cpp,Leetcode-Notes/Patterns/Two-Pointers/reverse vowels of a string.cpp,Renamed or moved
+Leetcode-Notes/algorithmic/two_pointer/valid palindrome.cpp,Leetcode-Notes/Patterns/Two-Pointers/valid palindrome.cpp,Renamed or moved
+Leetcode-Notes/data-structures/circular_deque.cpp,Leetcode-Notes/Data-Structure-Problems/circular_deque.cpp,Renamed or moved
+Leetcode-Notes/question journaling template,Templates/problem-comment.txt,Renamed or moved
+README.md,README.md,Updated home page
+Algorithms/Types/Tree Algorithms/bfs tree.exe,Algorithms/Tree-Traversal/bfs tree.exe,Ignored build artifact moved with examples
+Languages/C++/Advanced_Topics/Templates/class template practice.exe,Languages/C++/Templates/class template practice.exe,Ignored build artifact moved with examples
+Languages/C++/Advanced_Topics/Templates/templates practice.exe,Languages/C++/Templates/templates practice.exe,Ignored build artifact moved with examples
+Languages/C++/Memory and Pointers/Smart Pointers/shared_ptrr.exe,Languages/C++/Memory/Smart-Pointers/shared_ptrr.exe,Ignored build artifact moved with examples
+Languages/C++/Memory and Pointers/Smart Pointers/simple pointer error eg.exe,Languages/C++/Memory/Smart-Pointers/simple pointer error eg.exe,Ignored build artifact moved with examples
+Languages/C++/Memory and Pointers/Smart Pointers/unique_ptrr.exe,Languages/C++/Memory/Smart-Pointers/unique_ptrr.exe,Ignored build artifact moved with examples
+Languages/C++/Memory and Pointers/Smart Pointers/weak_ptrr.exe,Languages/C++/Memory/Smart-Pointers/weak_ptrr.exe,Ignored build artifact moved with examples
+Languages/C++/STL/sstream/sstream practice.exe,Languages/C++/STL/String-Streams/sstream practice.exe,Ignored build artifact moved with examples

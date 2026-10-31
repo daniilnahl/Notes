@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data-Structures/Binary Tree/trees-101-notes.md",
+                "file": "Data-Structures/Binary-Trees/trees-101.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "trees-101-notes"
+              "title": "trees-101"
             }
           }
         ]
@@ -168,14 +168,14 @@
   },
   "active": "51dacdc52eabbbe6",
   "lastOpenFiles": [
-    "Data-Structures/Binary Tree/implementations/Node_BT.py",
-    "Data-Structures/Binary Tree/implementations/Node_BT.java",
-    "Data-Structures/Binary Tree/implementations/Node_BT.cpp",
-    "Data-Structures/Binary Tree/implementations/Node_BT.c",
-    "Data-Structures/Binary Tree/implementations",
-    "Data-Structures/Binary Tree/binary-tree_notes.md",
-    "Data-Structures/Binary Tree/trees-101-notes.md",
-    "Artificial Intelligence/Machine Learning/machine learning notes.md",
-    "Languages/C/Bit Manipulation/bits_mani_notes.md"
+    "Data-Structures/Binary-Trees/Implementations/Node_BT.py",
+    "Data-Structures/Binary-Trees/Implementations/Node_BT.java",
+    "Data-Structures/Binary-Trees/Implementations/Node_BT.cpp",
+    "Data-Structures/Binary-Trees/Implementations/Node_BT.c",
+    "Data-Structures/Binary-Trees/Implementations",
+    "Data-Structures/Binary-Trees/binary-tree.md",
+    "Data-Structures/Binary-Trees/trees-101.md",
+    "Artificial-Intelligence/Machine-Learning/machine-learning.md",
+    "Languages/C/Bit-Manipulation/bit-manipulation.md"
   ]
 }

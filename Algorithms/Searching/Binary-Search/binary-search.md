@@ -1,0 +1,43 @@
+# What is Binary Search?
+
+A search algorithm that efficiently finds a target value in a **sorted array**. With each iteration, half the remaining search space is eliminated. The runtime for Binary Search is typically $O(\log n)$.
+
+**Conditions to use binary search:**
+- The data structure must be sorted.
+- Access to any element of the data structure should take constant time (e.g., an array).
+
+## What is the Complexity?
+- Time complexity is O (log n).
+
+## What are the benefits?
+- significantly faster than linear search, especially for large arrays.
+
+
+## What are the disadvantages?
+- data structure **must be sorted** beforehand, which adds an initial cost if the data is not already sorted.
+- requires the data structure to be stored in contiguous memory locations (like an array) for efficient random access.
+- requires that the elements of the array be comparable, meaning that they must have a defined order.
+
+# How to use Binary Search?
+When approaching a problem where Binary Search might apply, ask yourself this:
+
+1.  What exactly are you searching for?
+2.  How are you searching for it (based on the sorted nature)?
+3.  Does this approach make sense for the specific problem constraints and data structure?
+
+# When to use Binary Search?
+* The data is **sorted**: Binary search works only on sorted collections (like arrays).
+* You are searching for a specific element: You need to find the position of or check for the existence of a particular value or condition.
+* Efficiency is key: The problem requires faster-than-linear solutions (better than just looping through all elements).
+
+# What are applications of binary search?
+* **Finding elements in sorted arrays or lists**: Its most direct application.
+* **Finding a specific value in a database index**: Databases often use structures that allow binary search.
+* **Root finding or solving equations**: Using binary search on a sorted range of values to find where a function crosses zero.
+* **Building block in more complex algorithms**: Used within algorithms for training neural networks, finding optimal hyperparameters, or in algorithms for computer graphics (like ray tracing or texture mapping) where searching sorted data is involved.
+
+---
+
+Related: [Binary Search Basic](../../../Leetcode-Notes/Patterns/Binary-Search/binary%20search%20basic.cpp)
+
+[Subject index](../../index.md) · [Home](../../../README.md)
