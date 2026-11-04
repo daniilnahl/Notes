@@ -24,41 +24,83 @@ OUTPUT constraints:
 #include <stdbool.h>
 #include <stddef.h>
 
-#define BUFFER_SIZE 64
 
-typedef struct CircularBuffer {
-    uint8_t data[BUFFER_SIZE];
-    uint8_t head; //index of head
-    uint8_t tail; //index of tail
-    uint8_t count;
+typedef struct CircularBuffer{
+    uint32_t capacity; 
+    uint32_t count;
+    uint32_t front;
+    uint32_t rear;
+    int *arr;
 } CircularBuffer;
 
-// Initialize buffer
-void cb_init(CircularBuffer *cb){
-    if (cb == NULL) return;
+uint8_t cbInit(CircularBuffer *cb, int cap){
+    if (cb == NULL || cap <= 0) return 1U;
 
-    cb->head = 0;
-    cb->tail = 0;
-    cb->count = 0;
+    cb->arr = malloc(sizeof(*cb->arr) * cap);
+    if (cb->arr == NULL) return 1U;
+    else {
+        cb->count = 0;
+        cb->front = 0;
+        cb->rear = 0;
+        cb->capacity = cap;    
+        return 0U;
+        }
+    } 
+
+uint8_t cbDeinit(CircularBuffer *cb){
+    if (cb == NULL) return 1U;
+    free(cb->arr);
+    
+    return 0U;
 }
 
-// Insert a byte
-bool cb_push(CircularBuffer *cb, uint8_t value){
-    if (cb == NULL || cb->count == BUFFER_SIZE) return false;
-
-    cb->data[cb->tail] = value;
-    cb->tail = (cb->tail + 1U) & BUFFER_SIZE;
+bool enQueue(CircularBuffer *cb, int value) {
+    if (cb == NULL || cb->count == cb->capacity) return false;
+    cb->arr[cb->rear] = value;
+    cb->rear = (cb->rear + 1U) % cb->capacity;
     cb->count++;
 
     return true;
 }
 
-// Remove the oldest byte
-bool cb_pop(CircularBuffer *cb, uint8_t *out){
-    if (cb == NULL || out == NULL || cb->count == 0) return false;
-    *out = cb->data[cb->tail];
-    cb->head = (cb->head + 1U) & BUFFER_SIZE;
+bool deQueue(CircularBuffer *cb) {
+    if (cb == NULL || cb->count == 0U) return false;
+    cb->front = (cb->front + 1U) % cb->capacity;
     cb->count--;
 
     return true;
 }
+
+int Front(CircularBuffer *cb, int *error) {
+    if (cb == NULL || cb->count == 0){
+        *error = 1;
+        return -1;
+    }
+
+    *error = 0;
+    return cb->arr[cb->front];
+}
+
+int Rear(CircularBuffer *cb, int *error) {
+    if (cb == NULL || cb->count == 0){
+        *error = 1;
+        return -1;
+    }
+
+    *error = 0;
+    return cb->arr[(cb->rear + cb->capacity - 1U) % cb->capacity];
+}
+
+bool isEmpty(CircularBuffer *cb) {
+    if (cb == NULL) return false;
+    if (cb->count == 0U) return true;
+    return false;
+}
+
+bool isFull(CircularBuffer *cb) {
+    if (cb == NULL) return false;
+    if (cb->count == cb->capacity) return true;
+    return false;
+}
+
+
