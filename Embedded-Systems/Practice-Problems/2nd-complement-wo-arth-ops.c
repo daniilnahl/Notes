@@ -19,23 +19,36 @@ OUTPUTS:
 #include <stdio.h>
 #include <inttypes.h>
 #include <stdbool.h>
+
+
+uint32_t twos_complement(uint32_t num){
+    uint32_t mask = num;
+    mask |= mask << 1;
+    mask |= mask <<2;
+    mask |= mask <<4;
+    mask |= mask <<8;
+    mask |= mask <<16;
+
+    return num ^ (mask << 1); 
+}
+
 //The core idea is to create a set bit mask for every bit start with the LS bit.
 //then use such a mask and XOR it with input value to inform what bits to flip starting with after the right most
 //LS bit. So the mask only XORs every bit after LSB.
 
-uint32_t twos_complement(uint32_t num){
-    uint32_t mask = num;      
+// uint32_t twos_complement(uint32_t num){
+//     uint32_t mask = num;      
 
-    mask |= mask << 1;        // spread set bits 1 position left
-    mask |= mask << 2;        // spread set bits 2 more positions left
-    mask |= mask << 4;        // spread set bits 4 more positions left
-    mask |= mask << 8;        // spread set bits 8 more positions left
-    mask |= mask << 16;       // spread set bits 16 more positions left
+//     mask |= mask << 1;        // spread set bits 1 position left
+//     mask |= mask << 2;        // spread set bits 2 more positions left
+//     mask |= mask << 4;        // spread set bits 4 more positions left
+//     mask |= mask << 8;        // spread set bits 8 more positions left
+//     mask |= mask << 16;       // spread set bits 16 more positions left
 
-    // shift mask to preserve the lowest set bit and trailing zeros
-    // XOR flips all higher bits, producing the two's complement
-    return num ^ (mask << 1);
-}
+//     // shift mask to preserve the lowest set bit and trailing zeros
+//     // XOR flips all higher bits, producing the two's complement
+//     return num ^ (mask << 1);
+// }
 
 int main(void) {
     struct {
@@ -72,3 +85,19 @@ int main(void) {
 
     return failed ? 1 : 0;
 }
+
+/****** 
+ * WHAT WAS CORE IDEA?
+ 
+ * WHAT PATTERN/DSA DID THIS USE?
+ * The DSA/PATTERN I used 
+ * 
+ * Key concepts that I learned were:
+ *  
+ * WHAT TIME COMPLEXITY?
+ * 
+ * WHAT SPACE COMPLEXITY?
+ * 
+ * WHAT IS THE SUMMARY OF THIS?
+ * 
+ *  ***/
