@@ -100,3 +100,5 @@ The system that allows the drone to be controlled, also lets you enable real-tim
 1. **Remote control (RC)**:
 2. **Ground control station (GCS):**
 3. **Radio Modem:**
+
+# Chapter 2: 
