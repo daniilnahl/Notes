@@ -20,17 +20,29 @@ OUTPUTS:
 #include <inttypes.h>
 #include <stdbool.h>
 
-
 uint32_t twos_complement(uint32_t num){
-    uint32_t mask = num;
-    mask |= mask << 1;
-    mask |= mask <<2;
-    mask |= mask <<4;
-    mask |= mask <<8;
-    mask |= mask <<16;
+    uint32_t mask = ~num;
+    uint32_t res = mask ^ 1U;
+    uint32_t carry_out = (mask & 1U) << 1;
 
-    return num ^ (mask << 1); 
+    while (carry_out){
+        uint32_t res_temp = res;
+        res = carry_out ^ res_temp;
+        carry_out = (carry_out & res_temp) << 1u;
+    }
+    return res;
 }
+
+// uint32_t twos_complement(uint32_t num){
+//     uint32_t mask = num;
+//     mask |= mask << 1;
+//     mask |= mask <<2;
+//     mask |= mask <<4;
+//     mask |= mask <<8;
+//     mask |= mask <<16;
+
+//     return num ^ (mask << 1); 
+// }
 
 //The core idea is to create a set bit mask for every bit start with the LS bit.
 //then use such a mask and XOR it with input value to inform what bits to flip starting with after the right most
