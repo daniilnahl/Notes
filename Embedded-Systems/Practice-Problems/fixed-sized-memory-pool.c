@@ -20,7 +20,7 @@ typedef struct MemPool {
     size_t free_blocks;
     struct FreeBlock* free_head;
     uint8_t* pool_start_addr;
-    uint8_t* allocation_bitmap;
+    uint8_t* allocation_bitmap; //0-free, 1-used
 } MemPool;
 
 MemPool gMemPool;
@@ -52,10 +52,17 @@ void poolCreate(size_t capacity, size_t blockSize){
     if (capacity > (SIZE_MAX / blockStrides)) return;
 
     uint8_t* temp_addr_pool = malloc(capacity * blockStrides);
-    if (temp_addr_pool == NULL) return; //failed to allocate memory
+    if (temp_addr_pool == NULL){
+        free(temp_addr_pool);
+        return; //failed to allocate memory
+    } 
 
-    uint8_t* temp_addr_bitmap = malloc(((capacity/8) + 1) * sizeof(char)); //allocate (capacity/8) amount of bytes for the tracking bitmap
-    if (temp_addr_bitmap == NULL) return;
+    uint8_t* temp_addr_bitmap = calloc((capacity/8)+1, sizeof(char)); //allocate (capacity/8) amount of bytes for the tracking bitmap
+    if (temp_addr_bitmap == NULL) {
+        free(temp_addr_pool);
+        free(temp_addr_bitmap);
+        return;
+    }
 
     gMemPool.pool_start_addr = temp_addr_pool;
     gMemPool.allocation_bitmap = temp_addr_bitmap;
@@ -81,9 +88,17 @@ void* poolAlloc(void){
     //edge cases
     if (gMemPool.free_blocks != 0 && gMemPool.free_head != NULL){
         FreeBlock* free_block = gMemPool.free_head;
+
+        //mark the bitmap 
+        uint32_t blockOffset = (uintptr_t)free_block - (uintptr_t)gMemPool.pool_start_addr;
+        uint32_t blockIndex = blockOffset / gMemPool.block_strides;
+        uint32_t bitmapByte = blockIndex / 8U;
+
+        gMemPool.allocation_bitmap[bitmapByte] |= (1U << (blockIndex  % 8U));
+
         gMemPool.free_head = gMemPool.free_head->next_block;
         gMemPool.free_blocks--;
-
+        
         return (void*) free_block;
     }
     //ELSE
@@ -93,10 +108,26 @@ void* poolAlloc(void){
 
 //free(ptr) — return a block to the pool
 void freeBlock(FreeBlock* return_block){
-    if (return_block == NULL || (return_block == gMemPool.free_head)) return; //check for valid pointer AND that we are double freeing the same block
-    return_block->next_block = gMemPool.free_head;
-    gMemPool.free_head = return_block;
-    gMemPool.free_blocks++;
+    if (gMemPool.pool_start_addr == NULL ||
+        return_block == NULL ||  //check for valid pointer
+        ((uintptr_t)return_block) <(uintptr_t)gMemPool.pool_start_addr || //check that block address is within the bounds, lower bound
+        ((uintptr_t)return_block) >= ((uintptr_t)gMemPool.pool_start_addr + (gMemPool.block_strides * gMemPool.block_count)) //upper bound
+        ) //was the memory pool even allocated at this point
+        return; 
+
+    //check for if the block has already been freed 
+    uintptr_t blockOffset = (uintptr_t)return_block - (uintptr_t)gMemPool.pool_start_addr;
+    if (blockOffset % gMemPool.block_strides != 0U) return; //the passed free block pointer is at an invalid offset
+    size_t blockIndex = blockOffset / gMemPool.block_strides;
+    size_t bitmapByte = blockIndex / 8U;
+
+    if ((gMemPool.allocation_bitmap[bitmapByte]) & (1U << (blockIndex  % 8U))) { 
+        //if the block has not been freed and is still marked as used 
+        return_block->next_block = gMemPool.free_head;
+        gMemPool.free_head = return_block;
+        gMemPool.free_blocks++;  
+        gMemPool.allocation_bitmap[bitmapByte] &= ~(1U << (blockIndex  % 8U));
+  }
 }
 
 int main() {
